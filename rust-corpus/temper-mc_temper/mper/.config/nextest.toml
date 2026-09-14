@@ -1,0 +1,6 @@
+experimental = ["benchmarks"]
+
+[profile.ci.junit]
+path = "junit.xml"
+
+

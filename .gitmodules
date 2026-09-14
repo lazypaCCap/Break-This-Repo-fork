@@ -253,3 +253,6 @@
 [submodule "worktree/ZalithLauncher2"]
 	path = worktree/ZalithLauncher2
 	url = https://github.com/DeterMination-Wind/Xenon-Mobile
+[submodule "dream-seeker-core"]
+	path = submodules/dream-seeker-core
+	url = https://github.com/ElecysiaBot/dream-seeker-core

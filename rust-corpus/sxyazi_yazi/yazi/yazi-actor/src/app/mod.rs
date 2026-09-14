@@ -1,0 +1,22 @@
+yazi_macro::mod_flat!(
+	accept_payload
+	bootstrap
+	clipboard
+	deprecate
+	dnd
+	focus
+	lua
+	mouse
+	passthrough
+	plugin
+	plugin_do
+	quit
+	reflow
+	report
+	resize
+	resume
+	stop
+	theme
+	title
+	update_progress
+);

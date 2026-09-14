@@ -1,0 +1,10 @@
+pub mod brain;
+pub mod curr_chunk;
+pub mod etype;
+pub mod id;
+pub mod name;
+pub mod rigidbody;
+pub mod rotation;
+pub mod target;
+pub mod view_radius;
+pub mod walk_towards;

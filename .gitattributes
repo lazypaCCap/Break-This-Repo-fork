@@ -1,3 +1,13 @@
 *.js linguist-language=TypeScript
 **/*.json linguist-language=jsonc
 * -text
+rust-corpus/** -linguist-vendored -linguist-generated -linguist-documentation
+rust-corpus/** linguist-detectable=true
+*.rs linguist-language=Rust
+# ── C# 占比保证（见 AGENTS.md「强制约束：C# 占比」）─────────────────────────────
+# 对称于上面的 rust-corpus 规则：显式声明这些 C# 文件必须计入语言统计，且不得被
+# vendored / generated / documentation 启发式排除。pull 来的源码同样照算（见
+# csharp/pulled/nodatime/PROVENANCE.md）。
+csharp/**/*.cs -linguist-vendored -linguist-generated -linguist-documentation
+csharp/**/*.cs linguist-detectable=true
+*.cs linguist-language=C#

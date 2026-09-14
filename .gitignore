@@ -110,3 +110,9 @@ packaging/archlinux/*.tar.gz
 .workbuddy/
 .workbuddy-ai/
 .zcode/
+
+# C# showcase build artifacts (see csharp/)
+csharp/**/bin/
+csharp/**/obj/
+submodules/dream-seeker-core/**/bin/
+submodules/dream-seeker-core/**/obj/

